@@ -4,7 +4,7 @@ import GuitarPage from "./GuitarPage"
 import Nav from "./Nav";
 import "./Nav.css";
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import Footer from "./Footer";
 import Error from "./Error";
 import Cart from "./Cart";
@@ -33,7 +33,7 @@ function App() {
           <Cart />
         </Route>
         <Route>
-          <Error />
+          <Error path=''/>
         </Route>
         </Switch>
       <Footer/>

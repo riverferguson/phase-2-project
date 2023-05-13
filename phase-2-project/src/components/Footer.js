@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Footer = () => {
   return (
@@ -6,16 +7,16 @@ const Footer = () => {
         <h3>Connect With Us</h3>
         <ul>
             <li>
-                <a href='youtube'>YouTube</a>
+                <Link to=''>YouTube</Link>
             </li>
             <li>
-                <a href='instagram'>Instagram</a>
+                <Link to=''>Instagram</Link>
             </li>
             <li>
-                <a href='facebook'>Facebook</a>
+                <Link to=''>FaceBook</Link>
             </li>
             <li>
-                <a href='twitter'>Twitter</a>
+                <Link to=''>Twitter</Link>
             </li>
         </ul>
     </div>
