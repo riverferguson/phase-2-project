@@ -9,7 +9,7 @@ const Footer = () => {
   return (
         <>
    <CssBaseline/>
-   <AppBar position="relative">
+   <AppBar position="sticky">
     <Toolbar>
         <Typography variant="h6">
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
@@ -21,7 +21,7 @@ const Footer = () => {
             <a href='https://instagram.com'>
             <InstagramIcon sx={{mr: 2}} />
             </a>
-            <a href='https://gmail.com'>
+            <a href='https://gmail.com/'>
             <MailOutlineIcon sx={{mr: 2}} />
             </a>
             Guitar Trader Inc.
