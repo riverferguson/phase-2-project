@@ -9,19 +9,19 @@ const Nav = () => {
         </Link>
         <ul>
             <li>
-            <Link to="/projects">  Search</Link>
+            <Link to="/guitars">  Search</Link>
             </li>
             <li>
-            <Link to="/projects">  Shop</Link>
+            <Link to="/guitars">  Shop</Link>
             </li>
             <li>
-            <Link to="/projects">  Cart</Link>
+            <Link to="/guitars">  Cart</Link>
             </li>
             <li>
-            <Link to="/projects">  Sell </Link>
+            <Link to='/guitars/new'>  Sell </Link>
             </li>
             <li>
-            <Link to="/projects">  Contact Us</Link>
+            <Link to="/guitars">  Contact Us</Link>
             </li>
         </ul>
     </nav>

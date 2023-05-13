@@ -12,10 +12,18 @@ const Footer = () => {
    <AppBar position="relative">
     <Toolbar>
         <Typography variant="h6">
+            <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
+            </a>
+            <a href='https://facebook.com'>
             <FacebookIcon sx={{mr: 2}} />
+            </a>
+            <a href='https://instagram.com'>
             <InstagramIcon sx={{mr: 2}} />
+            </a>
+            <a>
             <MailOutlineIcon sx={{mr: 2}} />
+            </a>
             Guitar Trader Inc.
         </Typography>
     </Toolbar>

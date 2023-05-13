@@ -8,13 +8,14 @@ import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import Footer from "./Footer";
 import Error from "./Error";
 import Cart from "./Cart";
+import Contact from "./Contact";
 
 
 function App() {
   const [guitars, setGuitars] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/guitars")
+    fetch("http://localhost:3001/guitars")
       .then((resp) => resp.json())
       .then((guitars) => setGuitars(guitars));
   }, []);
@@ -23,17 +24,20 @@ function App() {
       <>
         <Nav />
         <Switch>
-        <Route path='projects/id:/new'>
+        <Route path='/guitars/new'>
           <GuitarForm />
         </Route>
-        <Route exact path='/'>
-          <GuitarPage guitars={guitars}/>
-        </Route>
-        <Route>
+        {/* <Route>
           <Cart />
         </Route>
         <Route>
-          <Error path=''/>
+          <Contact/>
+        </Route> */}
+        <Route exact path='/'>
+          <GuitarPage guitars={guitars}/>
+        </Route>
+        <Route path='/*'>
+          <Error/>
         </Route>
         </Switch>
       <Footer/>
