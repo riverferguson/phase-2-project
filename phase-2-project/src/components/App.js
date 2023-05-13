@@ -39,18 +39,18 @@ function App() {
   return (
       <>
         <Nav />
-        <Search search={search} setSearch={setSearch}/>
         <Switch>
         <Route path='/guitars/new'>
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
-        {/* <Route>
-          <Cart />
+        <Route path='/guitars/cart'>
+          <Cart/>
         </Route>
-        <Route>
+        <Route path='/guitars/contact'>
           <Contact/>
-        </Route> */}
+        </Route>
         <Route exact path='/'>
+          <Search search={search} setSearch={setSearch}/>
           <GuitarPage deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>

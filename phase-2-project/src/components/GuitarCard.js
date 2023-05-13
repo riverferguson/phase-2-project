@@ -17,7 +17,8 @@ fetch(`http://localhost:3001/guitars/${id}`, {
     <div className="main">
         <main>
             <img src={image} alt={make}/>
-            <div>Make: {make}   Model: {model}</div>
+            <div>Make: {make}</div>
+            <div>Model: {model}</div>
             <div>Price: ${price}</div>
             <div>Year: {year}</div>
             <button>🛒</button>

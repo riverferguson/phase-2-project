@@ -1,31 +1,27 @@
 import React from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import { Link } from 'react-router-dom'
+import { AppBar, CssBaseline, Toolbar, Typography} from "@mui/material";
 
 const Nav = () => {
   return (
-    <nav className="nav">
-        <Link to="/" className="site-title">
+
+  <>
+<CssBaseline/>
+<AppBar position="sticky">
+<Toolbar>
+  <Typography variant="h6">
        LOGO Guitar Traders
-        </Link>
-        <ul>
-            <li>
-            <Link to="/guitars">  Search</Link>
-            </li>
-            <li>
-            <Link to="/guitars">  Shop</Link>
-            </li>
-            <li>
-            <Link to="/guitars">  Cart</Link>
-            </li>
-            <li>
+       <div>
+            <Link to="/">  Shop</Link>
+            <Link to="/guitars/cart">  Cart</Link>
             <Link to='/guitars/new'>  Sell </Link>
-            </li>
-            <li>
-            <Link to="/guitars">  Contact Us</Link>
-            </li>
-        </ul>
-    </nav>
-  )
+            <Link to="/guitars/contact">  Contact Us</Link>
+       </div>
+  </Typography>
+</Toolbar>
+</AppBar>
+</>
+)
 }
 
 export default Nav

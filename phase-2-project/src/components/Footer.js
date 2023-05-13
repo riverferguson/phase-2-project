@@ -21,7 +21,7 @@ const Footer = () => {
             <a href='https://instagram.com'>
             <InstagramIcon sx={{mr: 2}} />
             </a>
-            <a>
+            <a href='https://gmail.com'>
             <MailOutlineIcon sx={{mr: 2}} />
             </a>
             Guitar Trader Inc.
