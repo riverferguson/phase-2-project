@@ -5,7 +5,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L78115000005000-00-720x720.jpg",
       "price": 999
     },
     {
@@ -14,7 +14,7 @@
       "year": 1984,
       "make": "Gibson",
       "model": "Les Paul",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118458114-00-720x720.jpg",
       "price": 1499
     },
     {
@@ -22,7 +22,7 @@
       "new": true,
       "year": 2023,
       "make": "PRS",
-      "model": "Custom 24",
+      "model": "https://media.guitarcenter.com/is/image/MMGS7/L99343000001000-00-720x720.jpg",
       "image": "",
       "price": 1999
     },
@@ -32,7 +32,7 @@
       "year": 1971,
       "make": "Gretsch",
       "model": "Country Gentleman",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/J32833000001000-00-720x720.jpg",
       "price": 2899
     },
     {
@@ -41,16 +41,16 @@
       "year": 2021,
       "make": "Epiphone",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118898842-00-720x720.jpg",
       "price": 599
     },
     {
       "name": "Guitar 6",
       "new": false,
-      "year": 1965,
+      "year": 1973,
       "make": "Rickenbacker",
       "model": "360",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000117603085-00-720x720.jpg",
       "price": 3999
     },
     {
@@ -58,7 +58,7 @@
       "new": true,
       "year": 2022,
       "make": "Jackson",
-      "model": "Soloist",
+      "model": "https://media.guitarcenter.com/is/image/MMGS7/L85463000001000-00-720x720.jpg",
       "image": "",
       "price": 1499
     },
@@ -68,7 +68,7 @@
       "year": 1979,
       "make": "Ibanez",
       "model": "Artist",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81350000001000-00-720x720.jpg",
       "price": 899
     },
     {
@@ -77,7 +77,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54585000001000-00-720x720.jpg",
       "price": 2199
     },
   {
@@ -86,7 +86,7 @@
       "year": 2023,
       "make": "Taylor",
       "model": "GS Mini-e Koa",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95167000001000-00-720x720.jpg",
       "price": 799
     },   
   {
@@ -95,7 +95,7 @@
       "year": 2021,
       "make": "Gretsch",
       "model": "White Falcon",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/H92921000001000-00-720x720.jpg",
       "price": 3999
     },
     {
@@ -104,7 +104,7 @@
       "year": 1980,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118677333-00-720x720.jpg",
       "price": 1799
     },
     {
@@ -113,7 +113,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Explorer",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72550000001000-00-720x720.jpg",
       "price": 699
     },
     {
@@ -122,7 +122,7 @@
       "year": 1972,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118863507-00-720x720.jpg",
       "price": 2899
     },
     {
@@ -131,7 +131,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "Jazzmaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81319000004000-00-720x720.jpg",
       "price": 1199
     },
     {
@@ -140,16 +140,16 @@
       "year": 1978,
       "make": "Gibson",
       "model": "Flying V",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L88083000002000-00-720x720.jpg",
       "price": 2399
     },
     {
       "name": "Guitar 17",
-      "new": true,
+      "new": false,
       "year": 2022,
       "make": "Fender",
       "model": "Mustang",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118899643-00-720x720.jpg",
       "price": 899
     },
     {
@@ -158,7 +158,7 @@
       "year": 1961,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L73770000001000-00-720x720.jpg",
       "price": 4999
     },
     {
@@ -167,7 +167,7 @@
       "year": 2023,
       "make": "G&L",
       "model": "ASAT",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L86667000001000-00-720x720.jpg",
       "price": 799
     },
   {
@@ -176,7 +176,7 @@
       "year": 1968,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L66457000001000-00-720x720.jpg",
       "price": 4299
     },   
   {
@@ -185,7 +185,7 @@
       "year": 2021,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118643504-00-720x720.jpg",
       "price": 3199
     },
     {
@@ -194,7 +194,7 @@
       "year": 1985,
       "make": "Ibanez",
       "model": "RG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72119000001000-00-720x720.jpg",
       "price": 1299
     },
     {
@@ -203,7 +203,7 @@
       "year": 2022,
       "make": "Gibson",
       "model": "Les Paul",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L69587000003000-00-720x720.jpg",
       "price": 3999
     },
     {
@@ -212,7 +212,7 @@
       "year": 1964,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L74424000002000-00-720x720.jpg",
       "price": 4999
     },
     {
@@ -221,7 +221,7 @@
       "year": 2023,
       "make": "Epiphone",
       "model": "Les Paul",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72546000003000-00-720x720.jpg",
       "price": 499
     },
     {
@@ -230,7 +230,7 @@
       "year": 1976,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54447000001000-00-720x720.jpg",
       "price": 2199
     },
     {
@@ -239,7 +239,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L91032000001000-00-720x720.jpg",
       "price": 999
     },
     {
@@ -248,7 +248,7 @@
       "year": 1968,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54581000001000-00-720x720.jpg",
       "price": 2799
     },
     {
