@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <nav className="nav">
-        <a href="/" className="Guitar-Heroes">
+        <a href="/" className="site-title">
        LOGO Guitar Heros
         </a>
         <ul>
