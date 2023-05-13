@@ -9,10 +9,26 @@ import Footer from "./Footer";
 import Error from "./Error";
 import Cart from "./Cart";
 import Contact from "./Contact";
+import Search from './Search'
 
 
 function App() {
   const [guitars, setGuitars] = useState([]);
+  const [search, setSearch] = useState("")
+
+
+
+  const addGuitar = (newGuitar) => {
+    setGuitars([...guitars, newGuitar])
+  }
+
+  const deleteGuitar = (guitarToDelete) => {
+    const updatedGuitar = guitars.filter(guitar => guitar.id !== guitarToDelete.id)
+    setGuitars(updatedGuitar)
+  }
+
+  const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
+  //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
 
   useEffect(() => {
     fetch("http://localhost:3001/guitars")
@@ -23,9 +39,10 @@ function App() {
   return (
       <>
         <Nav />
+        <Search search={search} setSearch={setSearch}/>
         <Switch>
         <Route path='/guitars/new'>
-          <GuitarForm />
+          <GuitarForm addGuitar={addGuitar}/>
         </Route>
         {/* <Route>
           <Cart />
@@ -34,7 +51,7 @@ function App() {
           <Contact/>
         </Route> */}
         <Route exact path='/'>
-          <GuitarPage guitars={guitars}/>
+          <GuitarPage deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>
           <Error/>
