@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Cart = () => {
   return (
     <Link to='/guitars/cart'>
-    <div>Cart</div>
+      <div>Cart</div>
     </Link>
   )
 }
