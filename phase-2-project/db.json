@@ -6,7 +6,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L78115000005000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
       "price": 999
     },
     {
@@ -15,7 +15,7 @@
       "year": 1984,
       "make": "Gibson",
       "model": "Les Paul",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118458114-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -23,8 +23,8 @@
       "new": true,
       "year": 2023,
       "make": "PRS",
-      "model": "https://media.guitarcenter.com/is/image/MMGS7/L99343000001000-00-720x720.jpg",
-      "image": "",
+      "model": "Custom 24",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -33,7 +33,7 @@
       "year": 1971,
       "make": "Gretsch",
       "model": "Country Gentleman",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/J32833000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
       "price": 2899
     },
     {
@@ -42,7 +42,7 @@
       "year": 2021,
       "make": "Epiphone",
       "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118898842-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Special-Satin-E1-Electric-Guitar-Cherry/J53182000001000-00-220x220.jpg",
       "price": 599
     },
     {
@@ -51,7 +51,7 @@
       "year": 1973,
       "make": "Rickenbacker",
       "model": "360",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000117603085-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/360-12-String-Electric-Guitar-Mapleglo/513659000204000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -59,8 +59,8 @@
       "new": true,
       "year": 2022,
       "make": "Jackson",
-      "model": "https://media.guitarcenter.com/is/image/MMGS7/L85463000001000-00-720x720.jpg",
-      "image": "",
+      "model": "Dinky Pro-series",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Pro-Series-Dinky-DK-Modern-EverTune-6-Graphite/L81144000001000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -69,7 +69,7 @@
       "year": 1979,
       "make": "Ibanez",
       "model": "Artist",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81350000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/AR520H-Artist-Hollowbody-Black/L80987000001000-00-220x220.jpg",
       "price": 899
     },
     {
@@ -78,7 +78,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54585000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-Electric-Guitar-Ebony/L54573000002000-00-220x220.jpg",
       "price": 2199
     },
     {
@@ -87,7 +87,7 @@
       "year": 2023,
       "make": "Taylor",
       "model": "GS Mini-e Koa",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95167000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/GS-Mini-e-Koa-Plus-Acoustic-Electric-Guitar-Shaded-Edge-Burst/L73864000001000-00-220x220.jpg",
       "price": 799
     },
     {
@@ -96,7 +96,7 @@
       "year": 2021,
       "make": "Gretsch",
       "model": "White Falcon",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/H92921000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6136-55-Vintage-Select-Edition-55-Falcon-Hollowbody-With-Cadillac-Tailpiece-Vintage-White/J32894000001000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -105,7 +105,7 @@
       "year": 1980,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118677333-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Roasted-Pine-Telecaster-Electric-Guitar-Sienna-Sunburst/L78016000002000-00-220x220.jpg",
       "price": 1799
     },
     {
@@ -114,7 +114,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Explorer",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72550000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Explorer-Electric-Guitar-Ebony/L72550000001000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -123,7 +123,7 @@
       "year": 1972,
       "make": "Gibson",
       "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118863507-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Sideways-Vibrola-Electric-Guitar-Vintage-Cherry/L54584000001000-00-220x220.jpg",
       "price": 2899
     },
     {
@@ -132,7 +132,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "Jazzmaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81319000004000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Acoustasonic-Jazzmaster-Acoustic-Electric-Guitar-Arctic-White/L81319000005000-00-220x220.jpg",
       "price": 1199
     },
     {
@@ -141,7 +141,7 @@
       "year": 1978,
       "make": "Gibson",
       "model": "Flying V",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L88083000002000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/80s-Flying-V-Electric-Guitar-Ebony/M01003000001000-00-220x220.jpg",
       "price": 2399
     },
     {
@@ -150,7 +150,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Mustang",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118899643-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Mustang-Electric-Guitar-With-Maple-Fingerboard-Sonic-Blue/L72144000002000-00-220x220.jpg",
       "price": 899
     },
     {
@@ -159,7 +159,7 @@
       "year": 1961,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L73770000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/ES-335-Figured-Semi-Hollow-Electric-Guitar-Iced-Tea/L73705000003000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -168,7 +168,7 @@
       "year": 2023,
       "make": "G&L",
       "model": "ASAT",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L86667000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Placentia-ASAT-Electric-Guitar-Blue-Quartz/L88881000001000-00-220x220.jpg",
       "price": 799
     },
     {
@@ -177,7 +177,7 @@
       "year": 1968,
       "make": "Gibson",
       "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L66457000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Maestro-Vibrola-Electric-Guitar-Vintage-Cherry/L54581000001000-00-220x220.jpg",
       "price": 4299
     },
     {
@@ -186,7 +186,7 @@
       "year": 2021,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118643504-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/S2-Custom-24-Electric-Guitar-Lake-Blue/L88241000003000-00-220x220.jpg",
       "price": 3199
     },
     {
@@ -195,7 +195,7 @@
       "year": 1985,
       "make": "Ibanez",
       "model": "RG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72119000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/EHB1506MS-6-String-Multi-Scale-Ergonomic-Headless-Bass-Black-Ice-Flat/L72595000001000-00-220x220.jpg",
       "price": 1299
     },
     {
@@ -204,7 +204,7 @@
       "year": 2022,
       "make": "Gibson",
       "model": "Les Paul",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L69587000003000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Classic-Electric-Guitar-Transparent-Cherry/L54489000001000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -213,7 +213,7 @@
       "year": 1964,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L74424000002000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Rosewood-Fingerboard-Electric-Guitar-Mystic-Surf-Green/L78030000003000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -222,7 +222,7 @@
       "year": 2023,
       "make": "Epiphone",
       "model": "Les Paul",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72546000003000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Matt-Heafy-Les-Paul-Custom-Origins-Electric-Guitar-Bone-White/L94417000001000-00-220x220.jpg",
       "price": 499
     },
     {
@@ -231,7 +231,7 @@
       "year": 1976,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54447000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Explorer-Left-Handed-Electric-Guitar-Antique-Natural/L78266000001000-00-220x220.jpg",
       "price": 2199
     },
     {
@@ -240,7 +240,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L91032000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Telecaster-Maple-Fingerboard-Electric-Guitar-3-Color-Sunburst/L78119000001000-00-220x220.jpg",
       "price": 999
     },
     {
@@ -249,7 +249,7 @@
       "year": 1968,
       "make": "Gibson",
       "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54581000001000-00-720x720.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Electric-Guitar-Vintage-Cherry/L54585000001000-00-220x220.jpg",
       "price": 2799
     },
     {
@@ -258,7 +258,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "Precision Bass",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Precision-Bass-Maple-Fingerboard-Limited-Edition-Ocean-Turquoise/L57533000001000-00-220x220.jpg",
       "price": 799
     },
     {
@@ -267,7 +267,7 @@
       "year": 2022,
       "make": "Ibanez",
       "model": "AZ224F",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/AZ2204B-AZ-Prestige-Electric-Guitar-Black/L72115000001000-00-220x220.jpg",
       "price": 1799
     },
     {
@@ -276,7 +276,7 @@
       "year": 2022,
       "make": "Jackson",
       "model": "Soloist",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Pro-Series-Soloist-SL3M-Electric-Guitar-Rainbow-Crackle/L72850000001000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -285,7 +285,7 @@
       "year": 1972,
       "make": "Gibson",
       "model": "Les Paul Deluxe",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Deluxe-70s-Electric-Guitar-Wine-Red/L83996000003000-00-220x220.jpg",
       "price": 3199
     },
     {
@@ -294,7 +294,7 @@
       "year": 2021,
       "make": "ESP",
       "model": "Eclipse",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/E-II-Eclipse-Evertune-Electric-Guitar-Black-Satin/K58365000001000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -303,7 +303,7 @@
       "year": 1989,
       "make": "Ibanez",
       "model": "Jem",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/JEMJR-Steve-Vai-Signature-JEM-Series-Electric-Guitar-White/J20752000001000-00-220x220.jpg",
       "price": 2799
     },
     {
@@ -312,7 +312,7 @@
       "year": 2022,
       "make": "PRS",
       "model": "SE Custom 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Electric-Guitar-Faded-Blue-Burst/L79262000002000-00-220x220.jpg",
       "price": 999
     },
     {
@@ -321,7 +321,7 @@
       "year": 1971,
       "make": "Fender",
       "model": "Jazz Bass",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Jazz-Bass-Maple-Fingerboard-Black/L22046000001000-00-220x220.jpg",
       "price": 2499
     },
     {
@@ -330,7 +330,7 @@
       "year": 2023,
       "make": "Gretsch",
       "model": "G6120",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6120T-SW-Steve-Wariner-Signature-Nashville-Gentleman-With-Bigsby-Electric-Guitar-Magic-Black/L51651000001000-00-220x220.jpg",
       "price": 2999
     },
     {
@@ -339,7 +339,7 @@
       "year": 1966,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/ES-335-Semi-Hollow-Electric-Guitar-Sixties-Cherry/L73697000001000-00-220x220.jpg",
       "price": 5999
     },
     {
@@ -348,7 +348,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Jaguar",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Vintera-60s-Jaguar-Modified-Electric-Guitar-Surf-Green/L58824000001000-00-220x220.jpg",
       "price": 1299
     },
     {
@@ -357,7 +357,7 @@
       "year": 1986,
       "make": "Jackson",
       "model": "Soloist",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Pro-Soloist-SL2Q-MAH-Electric-Guitar-Transparent-Purple/J27936000010000-00-220x220.jpg",
       "price": 2499
     },
     {
@@ -366,7 +366,7 @@
       "year": 1981,
       "make": "Charvel",
       "model": "San Dimas",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Pro-Mod-San-Dimas-Style-1-HH-FR-M-Electric-Guitar-Chameleon/L85453000001000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -375,7 +375,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "SG Standard",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Sideways-Vibrola-Electric-Guitar-Vintage-Cherry/L54584000001000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -384,7 +384,7 @@
       "year": 1978,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Telecaster-Maple-Fingerboard-Electric-Guitar-Capri-Orange/L21565000006000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -393,7 +393,7 @@
       "year": 2022,
       "make": "Ibanez",
       "model": "AZ Prestige",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/AZ2402-Prestige-Electric-Guitar-Tri-Fade-Burst/K76900000001000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -402,7 +402,7 @@
       "year": 1985,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Lzzy-Hale-Signature-Explorerbird-Electric-Guitar-Cardinal-Red/L94413000001000-00-220x220.jpg",
       "price": 3499
     },
     {
@@ -411,7 +411,7 @@
       "year": 2022,
       "make": "Schecter",
       "model": "Hellraiser Hybrid",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Hellraiser-Extreme-5-Electric-Bass-Guitar-Satin-Crimson-Red-Burst/H81394000002000-00-220x220.jpg",
       "price": 1399
     },
     {
@@ -420,7 +420,7 @@
       "year": 1979,
       "make": "Gibson",
       "model": "Flying V",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/80s-Flying-V-Electric-Guitar-Ebony/M01003000001000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -429,7 +429,7 @@
       "year": 2023,
       "make": "Jackson",
       "model": "Rhoads",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/X-Series-Rhoads-RRX24-Electric-Guitar-Gloss-Black/L51632000004000-00-220x220.jpg",
       "price": 1699
     },
     {
@@ -438,7 +438,7 @@
       "year": 1963,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Tribute-Electric-Guitar-Natural-Walnut/L54574000002000-00-220x220.jpg",
       "price": 5999
     },
     {
@@ -447,7 +447,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "ES-339 Figured",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/ES-339-Figured-Semi-Hollow-Electric-Guitar-Blueberry-Burst/L73699000002000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -456,7 +456,7 @@
       "year": 2022,
       "make": "ESP",
       "model": "LTD Snakebyte",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/LTD-James-Hetfield-Snakebyte-Electric-Guitar-Snow-White/H70587000002000-00-220x220.jpg",
       "price": 1299
     },
     {
@@ -465,7 +465,7 @@
       "year": 1991,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Stratocaster-HSS-Plus-Top-Maple-Fingerboard-Limited-Edition-Electric-Guitar-Sienna-Sunburst/L46829000002000-00-220x220.jpg",
       "price": 2999
     },
     {
@@ -474,7 +474,7 @@
       "year": 2023,
       "make": "PRS",
       "model": "SE Custom 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Electric-Guitar-Faded-Blue-Burst/L79262000002000-00-220x220.jpg",
       "price": 899
     },
     {
@@ -483,7 +483,7 @@
       "year": 1974,
       "make": "Gibson",
       "model": "Les Paul Deluxe",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
       "price": 4499
     },
     {
@@ -492,7 +492,7 @@
       "year": 2022,
       "make": "Ernie Ball Music Man",
       "model": "StingRay",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/StingRay5-Special-H-Maple-Fingerboard-Electric-Bass-Snowy-Night/L20239000011000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -501,7 +501,7 @@
       "year": 1969,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Telecaster-Rosewood-Fingerboard-Electric-Guitar-Mercury/L78043000004000-00-220x220.jpg",
       "price": 7999
     },
     {
@@ -510,7 +510,7 @@
       "year": 2023,
       "make": "Taylor",
       "model": "814ce",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Limited-Edition-814ce-Honduran-Rosewood-Grand-Auditorium-Acoustic-Electric-Guitar-Natural/L92130000001000-00-220x220.jpg",
       "price": 3299
     },
     {
@@ -519,7 +519,7 @@
       "year": 1980,
       "make": "Gibson",
       "model": "Firebird",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Firebird-Custom-Electric-Guitar-Ebony/L71543000001000-00-220x220.jpg",
       "price": 4799
     },
     {
@@ -528,7 +528,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Sheraton II Pro",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Sheraton-II-Pro-Semi-Hollow-Electric-Guitar-Ebony/J25053000002000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -537,7 +537,7 @@
       "year": 1976,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Ultra-Telecaster-Rosewood-Fingerboard-Electric-Guitar-Arctic-Pearl/L69996000002000-00-220x220.jpg",
       "price": 3799
     },
     {
@@ -546,7 +546,7 @@
       "year": 1979,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Explorer-Left-Handed-Electric-Guitar-Antique-Natural/L78266000001000-00-220x220.jpg",
       "price": 6999
     },
     {
@@ -555,7 +555,7 @@
       "year": 2023,
       "make": "Ibanez",
       "model": "RG421HPAH",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/J07945000003000-00-160x160.jpg",
       "price": 699
     },
     {
@@ -564,7 +564,7 @@
       "year": 1987,
       "make": "Charvel",
       "model": "Model 3DR",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Jake-E-Lee-Signature-Model-Electric-Guitar-Pearl-White/J13566000001000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -573,7 +573,7 @@
       "year": 2022,
       "make": "Gretsch",
       "model": "G5622T",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G5622T-Electromatic-Center-Block-Double-Cut-With-Bigsby-Single-Barrel-Burst/L57022000007000-00-220x220.jpg",
       "price": 899
     },
     {
@@ -582,7 +582,7 @@
       "year": 1970,
       "make": "Martin",
       "model": "D-28",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/D-28-Satin-Acoustic-Guitar-Natural/L99954000001000-00-220x220.jpg",
       "price": 8999
     },
     {
@@ -591,7 +591,7 @@
       "year": 2023,
       "make": "Jackson",
       "model": "JS Series Soloist SL3",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/JS-Series-Dinky-Arch-Top-JS34-DKA-Electric-Guitar-Silver-Burst/L72527000001000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -600,7 +600,7 @@
       "year": 1989,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/1959-ES-335-Reissue-VOS-Semi-Hollow-Electric-Guitar-Vintage-Natural/L73772000002000-00-220x220.jpg",
       "price": 4499
     },
     {
@@ -609,7 +609,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "Player Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Series-Telecaster-Maple-Fingerboard-Limited-Edition-Electric-Guitar-Surf-Pearl/L59796000001000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -618,7 +618,7 @@
       "year": 1964,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Modern-Electric-Guitar-Blueberry-Fade/L54571000002000-00-220x220.jpg",
       "price": 8499
     },
     {
@@ -627,7 +627,7 @@
       "year": 2022,
       "make": "Martin",
       "model": "D-16E",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/D-16E-16-Series-With-Rosewood-Dreadnought-Acoustic-Electric-Guitar-Natural/L59167000001000-00-220x220.jpg",
       "price": 2299
     },
     {
@@ -636,7 +636,7 @@
       "year": 1991,
       "make": "Ibanez",
       "model": "JEM77P",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/JEM77P-Steve-Vai-Signature-JEM-Premium-Series-Electric-Guitar-Blue-Floral-Pattern/L74822000001000-00-220x220.jpg",
       "price": 2999
     },
     {
@@ -645,7 +645,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Sheraton-II PRO",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Sheraton-II-Pro-Semi-Hollow-Electric-Guitar-Ebony/J25053000002000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -654,7 +654,7 @@
       "year": 1980,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Player-Stratocaster-Maple-Fingerboard-Limited-Edition-Electric-Guitar-Shell-Pink/L46830000002000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -663,7 +663,7 @@
       "year": 2023,
       "make": "PRS",
       "model": "SE Standard 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Standard-24-Electric-Guitar-Vintage-Cherry/L79230000003000-00-220x220.jpg",
       "price": 799
     },
     {
@@ -672,7 +672,7 @@
       "year": 1973,
       "make": "Gibson",
       "model": "Les Paul Custom",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/1957-Les-Paul-Custom-Reissue-3-Pickup-Bigsby-VOS-Electric-Guitar-Ebony/L76506000001000-00-220x220.jpg",
       "price": 8999
     },
     {
@@ -681,7 +681,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "American Professional II Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Rosewood-Fingerboard-Electric-Guitar-Mercury/L78030000005000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -690,7 +690,7 @@
       "year": 1996,
       "make": "Ibanez",
       "model": "RG550",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/RG550-Genesis-Collection-Electric-Guitar-Desert-Sun-Yellow/K59743000003000-00-220x220.jpg",
       "price": 2199
     },
     {
@@ -699,7 +699,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "SG Standard",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/1964-SG-Standard-Reissue-With-Maestro-Vibrola-VOS-Electric-Guitar/L74280000000000-00-220x220.jpg",
       "price": 1499
     },
     {
@@ -708,7 +708,7 @@
       "year": 1965,
       "make": "Fender",
       "model": "Jazzmaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Vintera-60s-Jazzmaster-Electric-Guitar-Olympic-White/L63411000002000-00-220x220.jpg",
       "price": 7999
     },
     {
@@ -717,7 +717,7 @@
       "year": 1971,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Modern-Left-Handed-Electric-Guitar-Blueberry-Fade/L78249000001000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -726,7 +726,7 @@
       "year": 1982,
       "make": "Gretsch",
       "model": "White Falcon",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G7593T-BD-Billy-Duffy-Signature-White-Falcon-White/H92921000001000-00-220x220.jpg",
       "price": 7999
     },
     {
@@ -735,7 +735,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "Player Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Special-Edition-Custom-Telecaster-FMT-HH-Electric-Guitar-Black-Cherry-Burst/L42754000003000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -744,7 +744,7 @@
       "year": 1971,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/61-59-Fat-Neck-SG-Limited-Edition-Electric-Guitar-Kerry-Green/L66184000002000-00-220x220.jpg",
       "price": 3499
     },
     {
@@ -753,7 +753,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Les Paul Modern",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Modern-Electric-Guitar-Faded-Pelham-Blue/L72557000001000-00-220x220.jpg",
       "price": 799
     },
     {
@@ -762,7 +762,7 @@
       "year": 2003,
       "make": "Taylor",
       "model": "810ce",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L26331000001000-00-160x160.jpg",
       "price": 2999
     },
     {
@@ -771,7 +771,7 @@
       "year": 2023,
       "make": "Gibson",
       "model": "Les Paul Studio",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Studio-Electric-Guitar-Smokehouse-Burst/L54490000003000-00-220x220.jpg",
       "price": 1399
     },
     {
@@ -780,7 +780,7 @@
       "year": 1976,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Jimmy-Page-Telecaster-Electric-Guitar-Natural/L48010000001000-00-220x220.jpg",
       "price": 4999
     },
     {
@@ -789,7 +789,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Joe Bonamassa Les Paul Standard Outfit",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Modern-Figured-Electric-Guitar-Caribbean-Blue-Fade/L76094000003000-00-220x220.jpg",
       "price": 699
     },
     {
@@ -798,7 +798,7 @@
       "year": 1969,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/ES-335-Figured-Limited-Edition-Semi-Hollow-Electric-Guitar-Blueberry-Burst/L76591000001000-00-220x220.jpg",
       "price": 7999
     },
     {
@@ -807,7 +807,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "American Ultra Jazzmaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Ultra-Jazzmaster-Rosewood-Fingerboard-Electric-Guitar-Mocha-Burst/L69929000002000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -816,7 +816,7 @@
       "year": 1959,
       "make": "Gibson",
       "model": "Les Paul Standard",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-50s-Electric-Guitar-Tobacco-Burst/L54575000003000-00-220x220.jpg",
       "price": 22599
     },
     {
@@ -825,7 +825,7 @@
       "year": 2022,
       "make": "Fender",
       "model": "American Ultra Stratocaster HSS",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Ultra-Stratocaster-Ebony-Fingerboard-Limited-Edition-Electric-Guitar-Denim/L84237000001000-00-220x220.jpg",
       "price": 1999
     },
     {
@@ -834,7 +834,7 @@
       "year": 2007,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/S2-Custom-24-Electric-Guitar-Lake-Blue/L88241000003000-00-220x220.jpg",
       "price": 3299
     },
     {
@@ -843,7 +843,7 @@
       "year": 2023,
       "make": "Gretsch",
       "model": "G5420TG Electromatic",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G5420T-Electromatic-Classic-Hollowbody-Single-Cut-Electric-Guitar-Walnut-Stain/L88823000001000-00-220x220.jpg",
       "price": 1099
     },
     {
@@ -852,7 +852,7 @@
       "year": 1972,
       "make": "Fender",
       "model": "Stratocaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Ultra-Stratocaster-HSS-Maple-Fingerboard-Electric-Guitar-Texas-Tea/L69975000004000-00-220x220.jpg",
       "price": 3999
     },
     {
@@ -861,7 +861,7 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Casino Coupe",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Casino-Hollowbody-Electric-Guitar-Vintage-Sunburst/518295000015000-00-220x220.jpg",
       "price": 449
     },
     {
@@ -870,7 +870,7 @@
       "year": 1983,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/1958-Korina-Explorer-Black-Pickguard-Electric-Guitar-Natural/L87952000001000-00-220x220.jpg",
       "price": 5999
     },
     {
@@ -879,7 +879,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "American Professional II Stratocaster HSS",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
       "price": 1599
     },
     {
@@ -888,7 +888,7 @@
       "year": 1979,
       "make": "Gibson",
       "model": "Les Paul Custom",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/1957-Les-Paul-Custom-Reissue-3-Pickup-VOS-Electric-Guitar-Ebony/L21331000001000-00-220x220.jpg",
       "price": 7599
     },
     {
@@ -897,7 +897,7 @@
       "year": 2023,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Floyd-Custom-24-Electric-Guitar-Cobalt-Smokeburst/L95383000001000-00-220x220.jpg",
       "price": 3899
     }
   ]

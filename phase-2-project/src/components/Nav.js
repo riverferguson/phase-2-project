@@ -1,26 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Nav = () => {
   return (
     <nav className="nav">
-        <a href="/" className="site-title">
-       LOGO Guitar Heros
-        </a>
+        <Link to="/" className="site-title">
+       LOGO Guitar Traders
+        </Link>
         <ul>
             <li>
-                <a href="FOOTER">  Search</a>
+            <Link to="/projects">  Search</Link>
             </li>
             <li>
-                <a href="FOOTER">  Shop</a>
+            <Link to="/projects">  Shop</Link>
             </li>
             <li>
-            <a href="FOOTER">  Cart</a>
+            <Link to="/projects">  Cart</Link>
             </li>
             <li>
-            <a href="FOOTER">  Sell</a>
+            <Link to="/projects">  Sell </Link>
             </li>
             <li>
-            <a href="FOOTER"> Contact us</a>
+            <Link to="/projects">  Contact Us</Link>
             </li>
         </ul>
     </nav>
