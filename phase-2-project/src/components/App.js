@@ -1,13 +1,26 @@
+
 import './App.css';
-import Nav from './Nav';
-import './Nav.css';
+import GuitarForm from './GuitarForm';
+import Nav from './Nav'
+import './Nav.css'
+// import Search from './Search'
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <header className="App-header">
-      </header>
+      <Nav />
+        <GuitarForm />
+        {/* <Search /> */}
+
+      <nav>
+
+      </nav>
+      <main>
+
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
