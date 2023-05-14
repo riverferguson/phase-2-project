@@ -3,7 +3,7 @@
   border: 1px solid #ccc;
   border-color: red;
   padding: 10px 20px;
-  margin: auto;
+  margin: 25px auto 0;
   text-align: left;
   width: 50%;
   background-color: lightgray;
@@ -11,6 +11,10 @@
   font-size: 25px;
   position: relative;
   width: 50%;
+}
+
+.formContainer h2 {
+  text-align: center;
 }
 
 .inputBox {
@@ -26,6 +30,9 @@
   align-items: left;
   border-radius: 10px;
   font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .label {
