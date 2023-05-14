@@ -17,16 +17,21 @@ function App() {
   const [search, setSearch] = useState("")
   const [cartItems, setCartItems] = useState([]);
 
-
+  const addCartItem = (newItem) => {
+   setCartItems(currentItems => [...currentItems, newItem])
+    }
 
   const addGuitar = (newGuitar) => {
     setGuitars([...guitars, newGuitar])
   }
 
-  const deleteGuitar = (guitarToDelete) => {
-    const updatedGuitar = guitars.filter(guitar => guitar.id !== guitarToDelete.id)
-    setGuitars(updatedGuitar)
+  const deleteGuitar = (guitarToDelete, collection) => {
+    const fn = collection === "guitars" ? setGuitars : setCartItems
+    fn(currentGuitars => currentGuitars.filter(guitar => guitar.id !== guitarToDelete.id))
   }
+
+
+
 
   const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
   //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
@@ -45,14 +50,14 @@ function App() {
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
         <Route path='/guitars/cart'>
-          <Cart cartItems={cartItems} guitars={guitars}/>
+          <Cart deleteGuitar={deleteGuitar} cartItems={cartItems}/>
         </Route>
         <Route path='/guitars/contact'>
           <Contact/>
         </Route>
         <Route exact path='/'>
           <Search search={search} setSearch={setSearch}/>
-          <GuitarPage cartItems={cartItems} setCartItems={setCartItems} deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
+          <GuitarPage addCartItem={addCartItem} cartItems={cartItems} setCartItems={setCartItems} deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>
           <Error/>
