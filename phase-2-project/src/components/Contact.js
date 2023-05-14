@@ -4,7 +4,6 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    // <Link to='/guitars/contact'>
     <div className='contact-us'>
       <h2>Contact Us</h2>
       <h3>Customer Support:</h3>
@@ -29,7 +28,6 @@ const Contact = () => {
         United States
       </p>
     </div>
-    // {/* </Link> */}
   )
 }
 
