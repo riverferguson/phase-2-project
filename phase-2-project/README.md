@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Guitar Traders Inc.
+GuitarTraders is a multi-page React application for buying and selling guitars. You can filter guitars by make and model, add them to a cart, and list your guitar(s) for sale.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
 
-## Available Scripts
+* fork and clone this repository
+* navigate to the directory on your local terminal with `cd <directory-name>`
+* run `code .` to open the content in VSCode
+* run `npm install` to install the necessary packages into dependencies
+* run `npx json-server --watch db.json --port=3001` to simulate the backend server
+* in a split/sperate terminal, run `npm start` which will open the React application in `localhost:3000`
 
-In the project directory, you can run:
+## Application Features
+1. Select between light and dark mode
+2. Select whether you want to search by Make or Model and type your search in to filter results from the guitar selection.
+3. Remove items from the guitar selection that you do not want by clicking on the trash icon.
+4. Add Items from the guitar selection to the checkout cart by clicking on the cart icon.
+5. To check the guitars in your cart, click on the cart icon at the top right-hand corner of the web page.
+6. On the cart page, remove any guitars you do not want to purchase anymore by clicking on the trash icon.
+7. To put your guitar up for bid, click on the 'Sell' link on the Navigation bar which will take you to a form. Fill out the form and click 'List Your Guitar' to have your guitar listed on the page for sale.
+8. For information about contacting our organization, click on the 'Contact Us' link in the Navigation bar.
+9. To find a quick guitar tuner, click on the 'Tuner' link in the Naviation bar which will take you to an external website that hosts an online tuner.
+10. Links to the website's socials can be found in the footer of the web page.
 
-### `npm start`
+## Contributing
+Open to pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authors and Acknowledgements
+Contributors:
+* [riverferguson](https://github.com/riverferguson)
+* [salvat36](https://github.com/salvat36)
+* [Blujay0](https://github.com/Blujay0)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
