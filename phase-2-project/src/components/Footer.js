@@ -12,8 +12,8 @@ const Footer = () => {
    {/* <CssBaseline/> */}
    {/* <AppBar position="sticky">
     <Toolbar> */}
-        <Typography variant="h6">
-          <div>
+        {/* <Typography variant="h6"> */}
+          <div className='icon-bar'>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
             </a>
@@ -33,7 +33,7 @@ const Footer = () => {
             <button className="back-button"> Back to Top</button>
             </a>
           </div>
-        </Typography>
+        {/* </Typography> */}
 {/* </Toolbar>
    </AppBar> */}
 </>
