@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom'
 import './Cart.css'
 
 
+const handlePurchase = () => {
+  alert("Congrats on your purchase!")
+ }
+
+
   const Cart = ({cartItems, guitars}) => {
     return (
       <div className='cart-div'>
@@ -13,34 +18,10 @@ import './Cart.css'
             <div>Make: {item.make}</div>
             <div>Model: {item.model}</div>
             <div>Price: ${item.price}</div>
-            {/* Add any other information you want to display */}
+            <button onClick={handlePurchase}>Complete Purchase</button>
           </div>
         ))}
       </div>
     );
   };
   export default Cart
-  
-
-
-  //   return (
-  //       <div className='cart-items'>
-  //         <div className="cart-item-header">Cart Items</div>
-  
-  //         {cartItems.length === 0 && (
-  //           <div className='cart-items-empty'> No Items are added.</div>
-  //         )}
-  
-  //         <div>
-  //           {cartItems.map((guitar) =>(
-  //             <div key={guitar.id} className='cart-items-list'>
-  //               <img 
-  //               className='cart-item-image'
-  //               src={guitar.image} 
-  //               alt={guitar.name}
-  //               />
-  //         </div>
-  //           ))}
-  //       </div>
-  //   )
-  // 
