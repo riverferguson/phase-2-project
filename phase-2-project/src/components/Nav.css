@@ -53,7 +53,34 @@ body {
     margin-right: 20px;
 }
 
-button {
+
+/* .dark-button:hover {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-overflow: initial;
     height: 30px;
     align-self: center;
+    background-color: #777;
+    color: white
 }
+
+.dark-button {
+    transition-duration: 0.5s;
+} */
+
+.dark-button {
+    background-color: #c14d4d;
+    height: fit-content;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    transition-duration: 0.4s;
+  }
+  
+  .dark-button:hover {
+    background-color: #555555;
+    color: white;
+  }

@@ -26,6 +26,7 @@ function App() {
     }
 
 
+
   const addGuitar = (newGuitar) => {
     setGuitars([...guitars, newGuitar])
   }
@@ -65,7 +66,7 @@ function App() {
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
         <Route path='/guitars/cart'>
-          <Cart deleteGuitar={deleteGuitar} cartItems={cartItems}/>
+          <Cart setCartItems={setCartItems} deleteGuitar={deleteGuitar} cartItems={cartItems}/>
         </Route>
         <Route path='/guitars/contact'>
           <Contact/>

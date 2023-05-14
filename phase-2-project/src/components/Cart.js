@@ -1,10 +1,11 @@
 import React from 'react'
 //import { Link } from 'react-router-dom'
 import './Cart.css'
+import { useEffect } from 'react';
 
 
 
-  const Cart = ({cartItems, deleteGuitar}) => {
+  const Cart = ({cartItems, deleteGuitar, setCartItems}) => {
 
     const handlePurchase = () => {
       alert("Congrats on your purchase!")
@@ -17,6 +18,13 @@ import './Cart.css'
       })
       .then(() => deleteGuitar({...guitar, id: guitar.productId}, "cart"))
       }
+
+
+      useEffect(() => {
+        fetch("http://localhost:3001/cart")
+          .then((resp) => resp.json())
+          .then((cartItems) => setCartItems(cartItems));
+      }, [setCartItems]);
 
     return (
       <div className='cart-div'>

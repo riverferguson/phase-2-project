@@ -27,7 +27,7 @@ return (
             <li>
             <Link to="/guitars/tuner">Tuner</Link>
             </li>
-            <button onClick={handleDarkModeClick}>{buttonContent}</button>
+            <button className='dark-button' onClick={handleDarkModeClick}>{buttonContent}</button>
         </ul>
     </nav>
   )
