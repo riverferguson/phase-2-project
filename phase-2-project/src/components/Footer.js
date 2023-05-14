@@ -9,7 +9,7 @@ import './Footer.css'
 const Footer = () => {
   return (
         <>
-          <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px' }}>
+          <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px'}}>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
             </a>
