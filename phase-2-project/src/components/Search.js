@@ -1,22 +1,33 @@
-const Search = ({search, setSearch}) => {
+import "./Search.css"
+
+
+const Search = ({ setSearchMake, setModelSearch}) => {
   
 
   const handleMakeSearch = (event) => {
-    setSearch(event.target.value);
+    setSearchMake(event.target.value);
   }
+
+  const handleModelSearch = (event) => {
+   setModelSearch(event.target.value)
+ }
 
 
   return (
-    <form>
-      <div className="guitarForm">
+    
+      <div className="search">
         <span>
-          <label>Search by Make: </label>
-          <input type='text' value={search} onChange={handleMakeSearch} />
+          <label>Search by: </label>
+          <label> </label>
+          <input type='radio' name="query" value='make' onChange={handleMakeSearch} />
+          <label>Make </label>
+          <input type='radio' name="query"value='model' onChange={handleMakeSearch}/>
+        </span>
+        <span>
+          <label> Model: </label>
+          <input placeholder="search by "  onChange={handleModelSearch}/>
         </span>
       </div>
-      <div>
-      </div>
-    </form>
   )
 }
 

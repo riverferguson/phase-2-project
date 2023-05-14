@@ -1,4 +1,5 @@
 import React from 'react'
+//import { Link } from 'react-router-dom'
 import './Cart.css'
 
 
@@ -25,7 +26,8 @@ import './Cart.css'
             <div>Make: {item.make}</div>
             <div>Model: {item.model}</div>
             <div>Price: ${item.price}</div>
-            <button onClick={() => handleDelete(item)}>Remove From Cart</button>
+            <button onClick={() => handleDelete(item)}>🗑️</button>
+
           </div>
         ))}
         <button onClick={handlePurchase}>Complete Purchase</button>

@@ -42,4 +42,5 @@ const handleAddToCart = () => {
     </div>
   )
 }
+
 export default GuitarCard

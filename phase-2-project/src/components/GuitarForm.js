@@ -41,62 +41,75 @@ const GuitarForm = ({ addGuitar }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>Year </label>
+    <form className='formContainer' onSubmit={handleSubmit}>
+      <div>
+        <h2>Sell Your Guitar</h2>
+        <div>
+          <label>Year </label>
 
-      <input
-        className="inputBox"
-        placeholder="what year was your guitar made?"
-        type="text"
-        name="year"
-        value={formData.year}
-        onChange={handleChange}
-      />
+          <input
+            className="inputBox"
+            placeholder="ex. 1969"
+            type="number"
+            name="year"
+            value={formData.year}
+            onChange={handleChange}
+          />
+        </div>
 
-      <label>Make </label>
+        <div>
+          <label>Make </label>
 
-      <input
-        className="inputBox"
-        placeholder="guitar manufacturer"
-        type="text"
-        name="make"
-        value={formData.make}
-        onChange={handleChange}
-      />
+          <input
+            className="inputBox"
+            placeholder="ex. Fender"
+            type="text"
+            name="make"
+            value={formData.make}
+            onChange={handleChange}
+          />
+        </div>
 
-      <label>Model </label>
+        <div>
+          <label>Model </label>
 
-      <input
-        className="inputBox"
-        placeholder="model of your guitar"
-        type="text"
-        name="model"
-        value={formData.model}
-        onChange={handleChange}
-      />
+          <input
+            className="inputBox"
+            placeholder="ex. Stratocaster"
+            type="text"
+            name="model"
+            value={formData.model}
+            onChange={handleChange}
+          />
+        </div>
 
-      <label>Image </label>
+        <div>
+          <label>Image </label>
 
-      <input
-        className="inputBox"
-        placeholder="image URL of your guitar"
-        type="text"
-        name="image"
-        value={formData.image}
-        onChange={handleChange}
-      />
+          <input
+            className="inputBox"
+            placeholder="ex. https://guitar.com/yourGuitarImage.jpg"
+            type="text"
+            name="image"
+            value={formData.image}
+            onChange={handleChange}
+          />
+        </div>
 
-      <label>Price $</label>
+        <div>
+          <label>Price $</label>
 
-      <input
-        className="inputBox"
-        placeholder="your bid price"
-        type="number"
-        name="price"
-        value={formData.price}
-        onChange={handleChange}
-      />
-
+          <input
+            className="inputBox"
+            placeholder="ex. 699.99"
+            type="number"
+            name="price"
+            value={formData.price}
+            onChange={handleChange}
+          />
+        </div>
+      </div>
+      
       <button className="listButton" type="submit">
         List Your Guitar
       </button>

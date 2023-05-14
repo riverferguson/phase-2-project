@@ -1,25 +1,34 @@
-.guitarForm {
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    border-color: red;
-    padding: 1%;
-    margin: null;
-    text-align: left;
-    width: 25rem;
-    background-color: cyan;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .inputBox {
-    width: 15rem;
-    height: 1.5rem;
-    margin-bottom: 10px;
-    background-color: cornsilk;
-    border-radius: 10px;
-    padding: 0.5rem;
-  }
+.formContainer {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-color: red;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: left;
+  width: 50%;
+  background-color: lightgray;
+  color: black;
+  font-size: 25px;
+  position: relative;
+  width: 50%;
+}
 
-  .listButton {
-    align-items: left;
-  }
+.inputBox {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 10px;
+  border: 3px solid #555;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.listButton {
+  align-items: left;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
