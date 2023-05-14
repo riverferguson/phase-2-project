@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className='contact-us'>
-      <h2>Contact Us</h2>
+      <h1>Contact Us</h1>
       <h3>Customer Support:</h3>
       <p> 
         For any assistance or questions regarding your order, product inquiries, or general support, our customer support team is ready to help. You can reach us by:

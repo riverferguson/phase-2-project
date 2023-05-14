@@ -19,7 +19,7 @@ import './Cart.css'
 
     return (
       <div className='cart-div'>
-        <h2 className='cart-header'>Cart</h2>
+        <h1 className='cart-header'>Cart</h1>
         {cartItems.map((item, index) => (
           <div className="cart" key={index}>
             <img src={item.image} alt={item.make}/>

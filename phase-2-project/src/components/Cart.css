@@ -12,3 +12,7 @@
   .cart-header {
     text-align: center;
   }
+
+  .cart h1 {
+    font-size: 2em;
+  }
