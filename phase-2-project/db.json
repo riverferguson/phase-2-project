@@ -1,15 +1,6 @@
 {
   "guitars": [
     {
-      "id": 1,
-      "new": true,
-      "year": 2022,
-      "make": "Fender",
-      "model": "Stratocaster",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
-      "price": 999
-    },
-    {
       "id": 2,
       "new": false,
       "year": 1984,
@@ -901,5 +892,78 @@
       "price": 3899
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "make": "Fender",
+      "model": "Stratocaster",
+      "year": 2022,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
+      "price": 999,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "make": "Gibson",
+      "model": "Les Paul",
+      "year": 1984,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "make": "Gibson",
+      "model": "Les Paul",
+      "year": 1984,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499,
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "make": "PRS",
+      "model": "Custom 24",
+      "year": 2023,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
+      "price": 1999,
+      "productId": 3,
+      "id": 4
+    },
+    {
+      "make": "Gretsch",
+      "model": "Country Gentleman",
+      "year": 1971,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
+      "price": 2899,
+      "productId": 4,
+      "id": 5
+    },
+    {
+      "make": "Gibson",
+      "model": "Les Paul",
+      "year": 1984,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499,
+      "productId": 2,
+      "id": 6
+    },
+    {
+      "make": "PRS",
+      "model": "Custom 24",
+      "year": 2023,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
+      "price": 1999,
+      "productId": 3,
+      "id": 7
+    },
+    {
+      "make": "Gretsch",
+      "model": "Country Gentleman",
+      "year": 1971,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
+      "price": 2899,
+      "productId": 4,
+      "id": 8
+    }
+  ]
 }

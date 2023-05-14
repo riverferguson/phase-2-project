@@ -32,7 +32,7 @@ function App() {
 
   const deleteGuitar = (guitarToDelete, collection) => {
     const fn = collection === "guitars" ? setGuitars : setCartItems
-    fn(currentGuitars => currentGuitars.filter(guitar => guitar.id !== guitarToDelete.id))
+    fn(currentGuitars => currentGuitars.filter(guitar => ((guitar.productId || guitar.id) !== guitarToDelete.id)))
   }
 
   const filteredGuitars = guitars.filter(guitar => {

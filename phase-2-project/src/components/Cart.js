@@ -8,6 +8,7 @@ import './Cart.css'
 
     const handlePurchase = () => {
       alert("Congrats on your purchase!")
+      cartItems.forEach(item => handleDelete(item));
     }
 
     const handleDelete = (guitar) => {
