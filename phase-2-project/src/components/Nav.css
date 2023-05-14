@@ -19,7 +19,8 @@ body {
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav ul {
