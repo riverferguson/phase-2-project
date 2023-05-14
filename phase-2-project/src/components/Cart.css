@@ -1,12 +1,12 @@
 .cart {
-    text-align: center;
-    border: grey solid 1px;
-    padding: 25px;
-    width: 15rem;
-    height: 25rem;
-    display: inline-grid;
-    margin: 1rem 2rem;
-    box-shadow: 3px 4px #e04b52;
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
   }
 
   .cart-header {

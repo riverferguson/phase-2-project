@@ -58,6 +58,6 @@ div#root .appbar a {
   --purple: #cda2ff;
   --green: #00ef7c;
   --color: var(--white);
-  --background: var(--dark-grey);
+  --background: var(--black);
   --primary: var(--white);
 }
