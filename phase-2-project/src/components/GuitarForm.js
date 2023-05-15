@@ -40,14 +40,14 @@ const GuitarForm = () => {
     setPrice(event.target.value);
   }
 
-  // const submitHandler = (event) => {
-  //   event.preventDefault();
+  const submitHandler = (event) => {
+    event.preventDefault();
     
-  //   setEnteredName('');
-  // }
+    setEnteredName('');
+  }
 
   return (
-    <form>
+    <form onSubmit={submitHandler}>
       <div className="guitarForm">
         <div>
           <label>Name </label>
