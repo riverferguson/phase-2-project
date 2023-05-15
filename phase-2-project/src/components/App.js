@@ -10,7 +10,15 @@ function App() {
         {/* <GuitarForm /> */}
         {/* <Search /> */}
       </header>
-      
+      <nav>
+
+      </nav>
+      <main>
+
+      </main>
+      <footer>
+        
+      </footer>
     </div>
   );
 }
