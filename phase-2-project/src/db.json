@@ -1,0 +1,902 @@
+[
+    {
+      "name": "Guitar 1",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "Stratocaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L78115000005000-00-720x720.jpg",
+      "price": 999
+    },
+    {
+      "name": "Guitar 2",
+      "new": false,
+      "year": 1984,
+      "make": "Gibson",
+      "model": "Les Paul",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118458114-00-720x720.jpg",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 3",
+      "new": true,
+      "year": 2023,
+      "make": "PRS",
+      "model": "https://media.guitarcenter.com/is/image/MMGS7/L99343000001000-00-720x720.jpg",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 4",
+      "new": false,
+      "year": 1971,
+      "make": "Gretsch",
+      "model": "Country Gentleman",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/J32833000001000-00-720x720.jpg",
+      "price": 2899
+    },
+    {
+      "name": "Guitar 5",
+      "new": true,
+      "year": 2021,
+      "make": "Epiphone",
+      "model": "SG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118898842-00-720x720.jpg",
+      "price": 599
+    },
+    {
+      "name": "Guitar 6",
+      "new": false,
+      "year": 1973,
+      "make": "Rickenbacker",
+      "model": "360",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000117603085-00-720x720.jpg",
+      "price": 3999
+    },
+    {
+      "name": "Guitar 7",
+      "new": true,
+      "year": 2022,
+      "make": "Jackson",
+      "model": "https://media.guitarcenter.com/is/image/MMGS7/L85463000001000-00-720x720.jpg",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 8",
+      "new": false,
+      "year": 1979,
+      "make": "Ibanez",
+      "model": "Artist",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81350000001000-00-720x720.jpg",
+      "price": 899
+    },
+    {
+      "name": "Guitar 9",
+      "new": true,
+      "year": 2023,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54585000001000-00-720x720.jpg",
+      "price": 2199
+    },
+  {
+      "name": "Guitar 10",
+      "new": true,
+      "year": 2023,
+      "make": "Taylor",
+      "model": "GS Mini-e Koa",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95167000001000-00-720x720.jpg",
+      "price": 799
+    },   
+  {
+   "name": "Guitar 11",
+      "new": true,
+      "year": 2021,
+      "make": "Gretsch",
+      "model": "White Falcon",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/H92921000001000-00-720x720.jpg",
+      "price": 3999
+    },
+    {
+      "name": "Guitar 12",
+      "new": false,
+      "year": 1980,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118677333-00-720x720.jpg",
+      "price": 1799
+    },
+    {
+      "name": "Guitar 13",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Explorer",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72550000001000-00-720x720.jpg",
+      "price": 699
+    },
+    {
+      "name": "Guitar 14",
+      "new": false,
+      "year": 1972,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118863507-00-720x720.jpg",
+      "price": 2899
+    },
+    {
+      "name": "Guitar 15",
+      "new": true,
+      "year": 2023,
+      "make": "Fender",
+      "model": "Jazzmaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L81319000004000-00-720x720.jpg",
+      "price": 1199
+    },
+    {
+      "name": "Guitar 16",
+      "new": false,
+      "year": 1978,
+      "make": "Gibson",
+      "model": "Flying V",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L88083000002000-00-720x720.jpg",
+      "price": 2399
+    },
+    {
+      "name": "Guitar 17",
+      "new": false,
+      "year": 2022,
+      "make": "Fender",
+      "model": "Mustang",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118899643-00-720x720.jpg",
+      "price": 899
+    },
+    {
+      "name": "Guitar 18",
+      "new": false,
+      "year": 1961,
+      "make": "Gibson",
+      "model": "ES-335",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L73770000001000-00-720x720.jpg",
+      "price": 4999
+    },
+    {
+      "name": "Guitar 19",
+      "new": true,
+      "year": 2023,
+      "make": "G&L",
+      "model": "ASAT",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L86667000001000-00-720x720.jpg",
+      "price": 799
+    },
+  {
+      "name": "Guitar 20",
+      "new": false,
+      "year": 1968,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L66457000001000-00-720x720.jpg",
+      "price": 4299
+    },   
+  {
+   "name": "Guitar 21",
+      "new": true,
+      "year": 2021,
+      "make": "PRS",
+      "model": "Custom 24",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118643504-00-720x720.jpg",
+      "price": 3199
+    },
+    {
+      "name": "Guitar 22",
+      "new": false,
+      "year": 1985,
+      "make": "Ibanez",
+      "model": "RG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72119000001000-00-720x720.jpg",
+      "price": 1299
+    },
+    {
+      "name": "Guitar 23",
+      "new": true,
+      "year": 2022,
+      "make": "Gibson",
+      "model": "Les Paul",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L69587000003000-00-720x720.jpg",
+      "price": 3999
+    },
+    {
+      "name": "Guitar 24",
+      "new": false,
+      "year": 1964,
+      "make": "Fender",
+      "model": "Stratocaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L74424000002000-00-720x720.jpg",
+      "price": 4999
+    },
+    {
+      "name": "Guitar 25",
+      "new": true,
+      "year": 2023,
+      "make": "Epiphone",
+      "model": "Les Paul",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L72546000003000-00-720x720.jpg",
+      "price": 499
+    },
+    {
+      "name": "Guitar 26",
+      "new": false,
+      "year": 1976,
+      "make": "Gibson",
+      "model": "Explorer",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54447000001000-00-720x720.jpg",
+      "price": 2199
+    },
+    {
+      "name": "Guitar 27",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L91032000001000-00-720x720.jpg",
+      "price": 999
+    },
+    {
+      "name": "Guitar 28",
+      "new": false,
+      "year": 1968,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54581000001000-00-720x720.jpg",
+      "price": 2799
+    },
+    {
+      "name": "Guitar 29",
+      "new": true,
+      "year": 2023,
+      "make": "Fender",
+      "model": "Precision Bass",
+      "image": "",
+      "price": 799
+    },
+  {
+      "name": "Guitar 30",
+      "new": true,
+      "year": 2022,
+      "make": "Ibanez",
+      "model": "AZ224F",
+      "image": "",
+      "price": 1799
+    },
+  {
+      "name": "Guitar 31",
+      "new": true,
+      "year": 2022,
+      "make": "Jackson",
+      "model": "Soloist",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 32",
+      "new": false,
+      "year": 1972,
+      "make": "Gibson",
+      "model": "Les Paul Deluxe",
+      "image": "",
+      "price": 3199
+    },
+    {
+      "name": "Guitar 33",
+      "new": true,
+      "year": 2021,
+      "make": "ESP",
+      "model": "Eclipse",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 34",
+      "new": false,
+      "year": 1989,
+      "make": "Ibanez",
+      "model": "Jem",
+      "image": "",
+      "price": 2799
+    },
+    {
+      "name": "Guitar 35",
+      "new": true,
+      "year": 2022,
+      "make": "PRS",
+      "model": "SE Custom 24",
+      "image": "",
+      "price": 999
+    },
+    {
+      "name": "Guitar 36",
+      "new": false,
+      "year": 1971,
+      "make": "Fender",
+      "model": "Jazz Bass",
+      "image": "",
+      "price": 2499
+    },
+    {
+      "name": "Guitar 37",
+      "new": true,
+      "year": 2023,
+      "make": "Gretsch",
+      "model": "G6120",
+      "image": "",
+      "price": 2999
+    },
+    {
+      "name": "Guitar 38",
+      "new": false,
+      "year": 1966,
+      "make": "Gibson",
+      "model": "ES-335",
+      "image": "",
+      "price": 5999
+    },
+    {
+      "name": "Guitar 39",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "Jaguar",
+      "image": "",
+      "price": 1299
+    },
+  {
+      "name": "Guitar 40",
+      "new": false,
+      "year": 1986,
+      "make": "Jackson",
+      "model": "Soloist",
+      "image": "",
+      "price": 2499
+    },
+  {
+      "name": "Guitar 41",
+      "new": false,
+      "year": 1981,
+      "make": "Charvel",
+      "model": "San Dimas",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 42",
+      "new": true,
+      "year": 2023,
+      "make": "Gibson",
+      "model": "SG Standard",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 43",
+      "new": false,
+      "year": 1978,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "",
+      "price": 3999
+    },
+    {
+      "name": "Guitar 44",
+      "new": true,
+      "year": 2022,
+      "make": "Ibanez",
+      "model": "AZ Prestige",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 45",
+      "new": false,
+      "year": 1985,
+      "make": "Gibson",
+      "model": "Explorer",
+      "image": "",
+      "price": 3499
+    },
+    {
+      "name": "Guitar 46",
+      "new": true,
+      "year": 2022,
+      "make": "Schecter",
+      "model": "Hellraiser Hybrid",
+      "image": "",
+      "price": 1399
+    },
+    {
+      "name": "Guitar 47",
+      "new": false,
+      "year": 1979,
+      "make": "Gibson",
+      "model": "Flying V",
+      "image": "",
+      "price": 4999
+    },
+    {
+      "name": "Guitar 48",
+      "new": true,
+      "year": 2023,
+      "make": "Jackson",
+      "model": "Rhoads",
+      "image": "",
+      "price": 1699
+    },
+    {
+      "name": "Guitar 49",
+      "new": false,
+      "year": 1963,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "",
+      "price": 5999
+    },
+  {
+      "name": "Guitar 50",
+      "new": true,
+      "year": 2023,
+      "make": "Gibson",
+      "model": "ES-339 Figured",
+      "image": "",
+      "price": 3999
+    },
+  {
+      "name": "Guitar 51",
+      "new": true,
+      "year": 2022,
+      "make": "ESP",
+      "model": "LTD Snakebyte",
+      "image": "",
+      "price": 1299
+    },
+    {
+      "name": "Guitar 52",
+      "new": false,
+      "year": 1991,
+      "make": "Fender",
+      "model": "Stratocaster",
+      "image": "",
+      "price": 2999
+    },
+    {
+      "name": "Guitar 53",
+      "new": true,
+      "year": 2023,
+      "make": "PRS",
+      "model": "SE Custom 24",
+      "image": "",
+      "price": 899
+    },
+    {
+      "name": "Guitar 54",
+      "new": false,
+      "year": 1974,
+      "make": "Gibson",
+      "model": "Les Paul Deluxe",
+      "image": "",
+      "price": 4499
+    },
+    {
+      "name": "Guitar 55",
+      "new": true,
+      "year": 2022,
+      "make": "Ernie Ball Music Man",
+      "model": "StingRay",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 56",
+      "new": false,
+      "year": 1969,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "",
+      "price": 7999
+    },
+    {
+      "name": "Guitar 57",
+      "new": true,
+      "year": 2023,
+      "make": "Taylor",
+      "model": "814ce",
+      "image": "",
+      "price": 3299
+    },
+    {
+      "name": "Guitar 58",
+      "new": false,
+      "year": 1980,
+      "make": "Gibson",
+      "model": "Firebird",
+      "image": "",
+      "price": 4799
+    },
+    {
+      "name": "Guitar 59",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Sheraton II Pro",
+      "image": "",
+      "price": 699
+    },
+  {
+      "name": "Guitar 60",
+      "new": false,
+      "year": 1976,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "",
+      "price": 3799
+    },   
+   {
+      "name": "Guitar 61",
+      "new": false,
+      "year": 1979,
+      "make": "Gibson",
+      "model": "Explorer",
+      "image": "",
+      "price": 6999
+    },
+    {
+      "name": "Guitar 62",
+      "new": true,
+      "year": 2023,
+      "make": "Ibanez",
+      "model": "RG421HPAH",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 63",
+      "new": false,
+      "year": 1987,
+      "make": "Charvel",
+      "model": "Model 3DR",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 64",
+      "new": true,
+      "year": 2022,
+      "make": "Gretsch",
+      "model": "G5622T",
+      "image": "",
+      "price": 899
+    },
+    {
+      "name": "Guitar 65",
+      "new": false,
+      "year": 1970,
+      "make": "Martin",
+      "model": "D-28",
+      "image": "",
+      "price": 8999
+    },
+    {
+      "name": "Guitar 66",
+      "new": true,
+      "year": 2023,
+      "make": "Jackson",
+      "model": "JS Series Soloist SL3",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 67",
+      "new": false,
+      "year": 1989,
+      "make": "Gibson",
+      "model": "ES-335",
+      "image": "",
+      "price": 4499
+    },
+    {
+      "name": "Guitar 68",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "Player Telecaster",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 69",
+      "new": false,
+      "year": 1964,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "",
+      "price": 8499
+    },
+  {
+      "name": "Guitar 70",
+      "new": true,
+      "year": 2022,
+      "make": "Martin",
+      "model": "D-16E",
+      "image": "",
+      "price": 2299
+    },
+  {
+      "name": "Guitar 71",
+      "new": false,
+      "year": 1991,
+      "make": "Ibanez",
+      "model": "JEM77P",
+      "image": "",
+      "price": 2999
+    },
+    {
+      "name": "Guitar 72",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Sheraton-II PRO",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 73",
+      "new": false,
+      "year": 1980,
+      "make": "Fender",
+      "model": "Stratocaster",
+      "image": "",
+      "price": 4999
+    },
+    {
+      "name": "Guitar 74",
+      "new": true,
+      "year": 2023,
+      "make": "PRS",
+      "model": "SE Standard 24",
+      "image": "",
+      "price": 799
+    },
+    {
+      "name": "Guitar 75",
+      "new": false,
+      "year": 1973,
+      "make": "Gibson",
+      "model": "Les Paul Custom",
+      "image": "",
+      "price": 8999
+    },
+    {
+      "name": "Guitar 76",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "American Professional II Stratocaster",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 77",
+      "new": false,
+      "year": 1996,
+      "make": "Ibanez",
+      "model": "RG550",
+      "image": "",
+      "price": 2199
+    },
+    {
+      "name": "Guitar 78",
+      "new": true,
+      "year": 2023,
+      "make": "Gibson",
+      "model": "SG Standard",
+      "image": "",
+      "price": 1499
+    },
+    {
+      "name": "Guitar 79",
+      "new": false,
+      "year": 1965,
+      "make": "Fender",
+      "model": "Jazzmaster",
+      "image": "",
+      "price": 7999
+    },
+  {
+      "name": "Guitar 80",
+      "new": false,
+      "year": 1971,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "",
+      "price": 4999
+    },
+  {
+      "name": "Guitar 81",
+      "new": false,
+      "year": 1982,
+      "make": "Gretsch",
+      "model": "White Falcon",
+      "image": "",
+      "price": 7999
+    },
+    {
+      "name": "Guitar 82",
+      "new": true,
+      "year": 2023,
+      "make": "Fender",
+      "model": "Player Telecaster",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 83",
+      "new": false,
+      "year": 1971,
+      "make": "Gibson",
+      "model": "SG",
+      "image": "",
+      "price": 3499
+    },
+    {
+      "name": "Guitar 84",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Les Paul Modern",
+      "image": "",
+      "price": 799
+    },
+    {
+      "name": "Guitar 85",
+      "new": false,
+      "year": 2003,
+      "make": "Taylor",
+      "model": "810ce",
+      "image": "",
+      "price": 2999
+    },
+    {
+      "name": "Guitar 86",
+      "new": true,
+      "year": 2023,
+      "make": "Gibson",
+      "model": "Les Paul Studio",
+      "image": "",
+      "price": 1399
+    },
+    {
+      "name": "Guitar 87",
+      "new": false,
+      "year": 1976,
+      "make": "Fender",
+      "model": "Telecaster",
+      "image": "",
+      "price": 4999
+    },
+    {
+      "name": "Guitar 88",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Joe Bonamassa Les Paul Standard Outfit",
+      "image": "",
+      "price": 699
+    },
+    {
+      "name": "Guitar 89",
+      "new": false,
+      "year": 1969,
+      "make": "Gibson",
+      "model": "ES-335",
+      "image": "",
+      "price": 7999
+    },
+  {
+      "name": "Guitar 109",
+      "new": true,
+      "year": 2023,
+      "make": "Fender",
+      "model": "American Ultra Jazzmaster",
+      "image": "",
+      "price": 1999
+    },
+  {
+      "name": "Guitar 91",
+      "new": false,
+      "year": 1959,
+      "make": "Gibson",
+      "model": "Les Paul Standard",
+      "image": "",
+      "price": 22599
+    },
+    {
+      "name": "Guitar 92",
+      "new": true,
+      "year": 2022,
+      "make": "Fender",
+      "model": "American Ultra Stratocaster HSS",
+      "image": "",
+      "price": 1999
+    },
+    {
+      "name": "Guitar 93",
+      "new": false,
+      "year": 2007,
+      "make": "PRS",
+      "model": "Custom 24",
+      "image": "",
+      "price": 3299
+    },
+    {
+      "name": "Guitar 94",
+      "new": true,
+      "year": 2023,
+      "make": "Gretsch",
+      "model": "G5420TG Electromatic",
+      "image": "",
+      "price": 1099
+    },
+    {
+      "name": "Guitar 95",
+      "new": false,
+      "year": 1972,
+      "make": "Fender",
+      "model": "Stratocaster",
+      "image": "",
+      "price": 3999
+    },
+    {
+      "name": "Guitar 96",
+      "new": true,
+      "year": 2022,
+      "make": "Epiphone",
+      "model": "Casino Coupe",
+      "image": "",
+      "price": 449
+    },
+    {
+      "name": "Guitar 97",
+      "new": false,
+      "year": 1983,
+      "make": "Gibson",
+      "model": "Explorer",
+      "image": "",
+      "price": 5999
+    },
+    {
+      "name": "Guitar 98",
+      "new": true,
+      "year": 2023,
+      "make": "Fender",
+      "model": "American Professional II Stratocaster HSS",
+      "image": "",
+      "price": 1599
+    },
+    {
+      "name": "Guitar 99",
+      "new": false,
+      "year": 1979,
+      "make": "Gibson",
+      "model": "Les Paul Custom",
+      "image": "",
+      "price": 7599
+    },
+    {
+    "name": "Guitar 100",
+    "new": true,
+    "year": 2023,
+    "make": "PRS",
+    "model": "Custom 24",
+    "image": "",
+    "price": 3899
+  }
+  ]
