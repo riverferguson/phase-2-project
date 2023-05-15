@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <GuitarForm /> */}
+        <GuitarForm />
         {/* <Search /> */}
       </header>
       <nav>
@@ -17,7 +17,7 @@ function App() {
 
       </main>
       <footer>
-        
+
       </footer>
     </div>
   );
