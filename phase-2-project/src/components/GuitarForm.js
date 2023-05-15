@@ -1,5 +1,6 @@
 // header will hold this component
 // form here
+import './GuitarForm.css'
 import { useState } from 'react'
 
 const GuitarForm = () => {
@@ -22,18 +23,18 @@ const GuitarForm = () => {
 
   return (
     <form>
-      <div>
-        <div>
-          <label>Name</label>
+      <div className="guitarForm">
+        <span>
+          <label>Name: </label>
           <input type='text' value={enteredName} onChange={nameChangeHandler} />
-        </div>
-        <div>
-          <label>Price</label>
+        </span>
+        <span>
+          <label>Price: </label>
           <input type='number' value={enteredPrice} onChange={priceChangeHandler} />
-        </div>
+        </span>
       </div>
       <div>
-        <button type='submit'>Search</button>
+        <button type='submit'>SELL</button>
       </div>
     </form>
   )
