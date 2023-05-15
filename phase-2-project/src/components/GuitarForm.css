@@ -14,5 +14,6 @@
 .inputBox {
   width: 13rem;
   height: 1.5rem;
-  margin: 
+  margin-bottom: 10px;
+  background-color: cornsilk;
 }

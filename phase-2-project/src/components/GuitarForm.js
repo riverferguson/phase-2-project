@@ -17,14 +17,24 @@ const GuitarForm = () => {
   }
 
   const newChangeHandler = (event) => {
-
+    setEnteredNew(event.target.value);
   }
 
   const yearChangeHandler = (event) => {
-
+    setEnteredYear(event.target.value);
   }
 
+  const makeChangeHandler = (event) => {
+    setEnteredMake(event.target.value);
+  }
 
+  const modelChangeHandler = (event) => {
+    setEnteredModel(event.target.value);
+  }
+
+  const imageChangeHandler = (event) => {
+    setEnteredImage(event.target.value);
+  }
 
   const priceChangeHandler = (event) => {
     setPrice(event.target.value);
@@ -60,19 +70,19 @@ const GuitarForm = () => {
         <div>
           <label>Make </label>
           <div>
-            <input className="inputBox" placeholder="guitar manufacturer" type='text' value={enteredName} onChange={nameChangeHandler} />
+            <input className="inputBox" placeholder="guitar manufacturer" type='text' value={enteredMake} onChange={makeChangeHandler} />
           </div>
         </div>
         <div>
           <label>Model </label>
           <div>
-            <input className="inputBox" placeholder="model of your guitar" type='text' value={enteredName} onChange={nameChangeHandler} />
+            <input className="inputBox" placeholder="model of your guitar" type='text' value={enteredModel} onChange={modelChangeHandler} />
           </div>
         </div>
         <div>
           <label>Image </label>
           <div>
-            <input className="inputBox" placeholder="input your image URL" type='text' value={enteredName} onChange={nameChangeHandler} />
+            <input className="inputBox" placeholder="image URL of your guitar" type='text' value={enteredImage} onChange={imageChangeHandler} />
           </div>
         </div>
         <div>
