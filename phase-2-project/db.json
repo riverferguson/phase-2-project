@@ -723,11 +723,11 @@
     {
       "name": "Guitar 81",
       "new": false,
-      "year": 1982,
+      "year": 1955,
       "make": "Gretsch",
       "model": "White Falcon",
-      "image": "",
-      "price": 7999
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/J32894000001000-00-720x720.jpg",
+      "price": 3999
     },
     {
       "name": "Guitar 82",
@@ -735,17 +735,17 @@
       "year": 2023,
       "make": "Fender",
       "model": "Player Telecaster",
-      "image": "",
-      "price": 699
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L21565000001000-00-720x720.jpg",
+      "price": 9
     },
     {
       "name": "Guitar 83",
       "new": false,
-      "year": 1971,
+      "year": 1964,
       "make": "Gibson",
       "model": "SG",
-      "image": "",
-      "price": 3499
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L74280000000000-00-720x720.jpg",
+      "price": 4699
     },
     {
       "name": "Guitar 84",
@@ -753,8 +753,8 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Les Paul Modern",
-      "image": "",
-      "price": 799
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L76094000001000-00-720x720.jpg",
+      "price": 699
     },
     {
       "name": "Guitar 85",
@@ -762,7 +762,7 @@
       "year": 2003,
       "make": "Taylor",
       "model": "810ce",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/H79684000001000-00-720x720.jpg",
       "price": 2999
     },
     {
@@ -771,8 +771,8 @@
       "year": 2023,
       "make": "Gibson",
       "model": "Les Paul Studio",
-      "image": "",
-      "price": 1399
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L54490000001000-00-720x720.jpg",
+      "price": 1699
     },
     {
       "name": "Guitar 87",
