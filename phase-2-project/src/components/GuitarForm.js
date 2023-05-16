@@ -2,14 +2,15 @@ import './GuitarForm.css'
 import { useState } from 'react'
 
 const GuitarForm = () => {
-  const [enteredName, setEnteredName] = useState('')
-  const [enteredNew, setEnteredNew] = useState('')
-  const [enteredYear, setEnteredYear] = useState('')
-  const [enteredMake, setEnteredMake] = useState('')
-  const [enteredModel, setEnteredModel] = useState('')
-  const [enteredImage, setEnteredImage] = useState('')
-  const [enteredPrice, setPrice] = useState('')
+  // const [enteredName, setEnteredName] = useState('')
+  // const [enteredNew, setEnteredNew] = useState('')
+  // const [enteredYear, setEnteredYear] = useState('')
+  // const [enteredMake, setEnteredMake] = useState('')
+  // const [enteredModel, setEnteredModel] = useState('')
+  // const [enteredImage, setEnteredImage] = useState('')
+  // const [enteredPrice, setPrice] = useState('')
 
+  /*
   const nameChangeHandler = (event) => {
     setEnteredName(event.target.value);
   }
@@ -36,6 +37,24 @@ const GuitarForm = () => {
 
   const priceChangeHandler = (event) => {
     setPrice(event.target.value);
+  }
+  */
+
+  const [formData, setFormData] = useState({
+    name: '',
+    new: '',
+    year: '',
+    make: '',
+    model: '',
+    image: '',
+    prcie: '',
+  })
+
+  const changeHandler = (event) => {
+    setFormData({
+      ...formData,
+      [event.target.id]: event.target.value,
+    });
   }
 
   const submitHandler = (event) => {
