@@ -1,28 +1,22 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 
-const Search = () => {
-  const [enteredSearch, setEnteredSearch] = useState('')
+const Search = ({search, setSearch}) => {
+  
 
-  const searchChangeHandler = (event) => {
-    setEnteredSearch(event.target.value);
+  const handleMakeSearch = (event) => {
+    setSearch(event.target.value);
   }
 
-  // const submitHandler = (event) => {
-  //   event.preventDefault();
-    
-  //   setEnteredName('');
-  // }
 
   return (
     <form>
       <div className="guitarForm">
         <span>
-          <label>Name: </label>
-          <input type='text' value={enteredSearch} onChange={searchChangeHandler} />
+          <label>Search by Make: </label>
+          <input type='text' value={search} onChange={handleMakeSearch} />
         </span>
       </div>
       <div>
-        <button type='submit'>Search</button>
       </div>
     </form>
   )

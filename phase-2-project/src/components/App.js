@@ -1,25 +1,41 @@
-import './App.css';
-import GuitarForm from './GuitarForm';
-import Nav from './Nav'
-import './Nav.css'
-// import Search from './Search'
+import React, { useEffect, useState } from "react";
+import GuitarForm from "./GuitarForm";
+import GuitarPage from "./GuitarPage"
+import Nav from "./Nav";
+import Search from "./Search"
+import "./Nav.css";
+import "./App.css";
 
 function App() {
+  const [guitars, setGuitars] = useState([]);
+  const [showForm, setShowForm] = useState(false)
+  const [search, setSearch] = useState("")
+
+  const handleShowForm = () => {
+    setShowForm(showForm => !showForm)
+  }
+
+  const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
+  //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
+
+  useEffect(() => {
+    fetch("http://localhost:3000/guitars")
+      .then((resp) => resp.json())
+      .then((guitars) => setGuitars(guitars));
+  }, []);
+
   return (
     <div className="App">
       <Nav />
-        <GuitarForm />
-        {/* <Search /> */}
-
-      <nav>
-
-      </nav>
+      <Search search={search} setSearch={setSearch}/>
+      <div className="sideBar" >
+        <button className="sellButton" onClick={handleShowForm}>Sell Your Guitar Here</button>
+      {showForm? <GuitarForm /> : null}
+      </div>
       <main>
-
+      <GuitarPage guitars={filteredGuitars}/>
       </main>
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
   );
 }

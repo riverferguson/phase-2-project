@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav className="nav">
         <a href="/" className="site-title">
-       LOGO Guitar Heros
+       LOGO Guitar Traders
         </a>
         <ul>
             <li>

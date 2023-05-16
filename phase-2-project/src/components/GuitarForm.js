@@ -38,11 +38,17 @@ const GuitarForm = () => {
     setPrice(event.target.value);
   }
 
-  // const submitHandler = (event) => {
-  //   event.preventDefault();
-    
-  //   setEnteredName('');
-  // }
+  const submitHandler = (event) => {
+    event.preventDefault();
+       fetch("http://localhost:3000/guitars", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+       })
+    setEnteredName('');
+  }
 
   return (
     <form>
@@ -91,7 +97,7 @@ const GuitarForm = () => {
         </div>
       </div>
       <div>
-        <button type='submit'>List Your Guitar</button>
+        <button className= "listButton" type='submit'>List Your Guitar</button>
       </div>
     </form>
   )
