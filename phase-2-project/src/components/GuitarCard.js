@@ -10,6 +10,9 @@ const GuitarCard = ({guitar}) => {
             <div>Make: {make}   Model: {model}</div>
             <div>Price: ${price}</div>
             <div>Year: {year}</div>
+            <button>🛒</button>
+            <button>🗑️</button>
+            
         </main>
     </div>
   )

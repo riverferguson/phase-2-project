@@ -23,10 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      
-      <nav>
       <Nav />
-      </nav>
       <div className="sideBar" >
         <button className="sellButton" onClick={handleShowForm}>Sell Your Guitar Here</button>
       {showForm? <GuitarForm /> : null}
