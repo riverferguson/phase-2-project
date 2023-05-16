@@ -19,3 +19,7 @@
     border-radius: 10px;
     padding: 0.5rem;
   }
+
+  .listButton {
+    align-items: left;
+  }
