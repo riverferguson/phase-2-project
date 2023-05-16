@@ -879,17 +879,17 @@
       "year": 2023,
       "make": "Fender",
       "model": "American Professional II Stratocaster HSS",
-      "image": "",
-      "price": 1599
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L78116000004000-00-720x720.jpg",
+      "price": 1749
     },
     {
       "name": "Guitar 99",
       "new": false,
       "year": 1979,
       "make": "Gibson",
-      "model": "Les Paul Custom",
-      "image": "",
-      "price": 7599
+      "model": "Les Paul Standard",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/000000118805122-00-720x720.jpg",
+      "price": 3699
     },
     {
       "name": "Guitar 100",
@@ -897,8 +897,8 @@
       "year": 2023,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "",
-      "price": 3899
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L79262000002000-00-720x720.jpg",
+      "price": 849
     }
   ]
 }
