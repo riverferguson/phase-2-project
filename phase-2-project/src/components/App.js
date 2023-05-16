@@ -6,10 +6,13 @@ import Search from "./Search"
 import "./Nav.css";
 import "./App.css";
 
+
+
 function App() {
   const [guitars, setGuitars] = useState([]);
   const [showForm, setShowForm] = useState(false)
   const [search, setSearch] = useState("")
+
 
   const handleShowForm = () => {
     setShowForm(showForm => !showForm)
@@ -17,6 +20,11 @@ function App() {
 
   const addGuitar = (newGuitar) => {
     setGuitars([...guitars, newGuitar])
+  }
+
+  const deleteGuitar = (guitarToDelete) => {
+    const updatedGuitar = guitars.filter(guitar => guitar.id !== guitarToDelete.id)
+    setGuitars(updatedGuitar)
   }
 
   const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
@@ -37,7 +45,7 @@ function App() {
       {showForm? <GuitarForm addGuitar={addGuitar}/> : null}
       </div>
       <main>
-      <GuitarPage guitars={filteredGuitars}/>
+      <GuitarPage guitars={filteredGuitars} deleteGuitar={deleteGuitar}/>
       </main>
       <footer></footer>
     </div>
