@@ -1,25 +1,25 @@
 .guitarForm {
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    border-color: red;
-    padding: 1%;
-    margin: null;
-    text-align: left;
-    width: 25rem;
-    background-color: cyan;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .inputBox {
-    width: 15rem;
-    height: 1.5rem;
-    margin-bottom: 10px;
-    background-color: cornsilk;
-    border-radius: 10px;
-    padding: 0.5rem;
-  }
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-color: red;
+  padding: 1%;
+  margin: null;
+  text-align: left;
+  width: 25rem;
+  background-color: rgb(193, 203, 203);
+  color: black;
+  font-size: 25px;
+}
 
-  .listButton {
-    align-items: left;
-  }
+.inputBox {
+  width: 15rem;
+  height: 1.5rem;
+  margin-bottom: 10px;
+  background-color: cornsilk;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.listButton {
+  align-items: left;
+}

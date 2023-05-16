@@ -1,5 +1,5 @@
-import "./GuitarForm.css";
-import { useState } from "react";
+import './GuitarForm.css'
+import { useState } from 'react'
 
 const GuitarForm = ({ addGuitar }) => {
   const [formData, setFormData] = useState({
@@ -13,7 +13,7 @@ const GuitarForm = ({ addGuitar }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newGuitar = { ...formData };
-    fetch("http://localhost:3000/guitars", {
+    fetch("http://localhost:3001/guitars", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,9 +41,8 @@ const GuitarForm = ({ addGuitar }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form  className="guitarForm" onSubmit={handleSubmit}>
       <label>Year </label>
-
       <input
         className="inputBox"
         placeholder="what year was your guitar made?"
@@ -104,4 +103,4 @@ const GuitarForm = ({ addGuitar }) => {
   );
 };
 
-export default GuitarForm;
+export default GuitarForm

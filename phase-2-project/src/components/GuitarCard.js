@@ -5,7 +5,7 @@ const GuitarCard = ({guitar, deleteGuitar}) => {
     const {make, model, year, image, price, id} = guitar
 
 const handleDelete = () => {
-fetch(`http://localhost:3000/guitars/${id}`, {
+fetch(`http://localhost:3001/guitars/${id}`, {
   method: "DELETE",
 })
 .then(resp => resp.json())
@@ -17,7 +17,8 @@ fetch(`http://localhost:3000/guitars/${id}`, {
     <div className="main">
         <main>
             <img src={image} alt={make}/>
-            <div>Make: {make}   Model: {model}</div>
+            <div>Make: {make}</div>
+            <div>Model: {model}</div>
             <div>Price: ${price}</div>
             <div>Year: {year}</div>
             <button>🛒</button>
