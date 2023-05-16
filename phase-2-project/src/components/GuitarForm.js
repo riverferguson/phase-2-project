@@ -1,92 +1,82 @@
 import './GuitarForm.css'
 import { useState } from 'react'
 
-const GuitarForm = () => {
-  const [enteredName, setEnteredName] = useState('')
-  const [enteredNew, setEnteredNew] = useState('')
-  const [enteredYear, setEnteredYear] = useState('')
-  const [enteredMake, setEnteredMake] = useState('')
-  const [enteredModel, setEnteredModel] = useState('')
-  const [enteredImage, setEnteredImage] = useState('')
-  const [enteredPrice, setPrice] = useState('')
+const GuitarForm = ({addGuitar}) => {
+  const [formData, setFormData] = useState({
+    year: "",
+    make: "",
+    model: "",
+    image: "",
+    price: "",
+  })
 
-  const nameChangeHandler = (event) => {
-    setEnteredName(event.target.value);
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const newGuitar = {...formData}
+    fetch('http://localhost:3000/guitars', {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newGuitar)
+    })
+    .then(resp => resp.json())
+    .then(createdGuitar => {
+      addGuitar(createdGuitar)
+      setFormData({
+        year: "",
+        make: "",
+        model: "",
+        image: "",
+        price: "",
+      })
+    })
   }
 
-  const newChangeHandler = (event) => {
-    setEnteredNew(event.target.value);
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value 
+    })
   }
-
-  const yearChangeHandler = (event) => {
-    setEnteredYear(event.target.value);
-  }
-
-  const makeChangeHandler = (event) => {
-    setEnteredMake(event.target.value);
-  }
-
-  const modelChangeHandler = (event) => {
-    setEnteredModel(event.target.value);
-  }
-
-  const imageChangeHandler = (event) => {
-    setEnteredImage(event.target.value);
-  }
-
-  const priceChangeHandler = (event) => {
-    setPrice(event.target.value);
-  }
-
-  // const submitHandler = (event) => {
-  //   event.preventDefault();
-    
-  //   setEnteredName('');
-  // }
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="guitarForm">
-        <div>
-          <label>Name </label>
-          <div>
-          <input className="inputBox" placeholder="name of your guitar" type='text' value={enteredName} onChange={nameChangeHandler} />
-          </div>
-        </div>
         <div>
           <label>New? </label>
           <div>
-            <input className="inputBox" placeholder="true or false" type='text' value={enteredNew} onChange={newChangeHandler} />
+            <input className="inputBox" placeholder="true or false" type='text' name='new' value={formData.new} onChange={handleChange} />
           </div>
         </div>
         <div>
           <label>Year </label>
           <div>
-            <input className="inputBox" placeholder="what year was your guitar made?" type='text' value={enteredYear} onChange={yearChangeHandler} />
+            <input className="inputBox" placeholder="what year was your guitar made?" type='text' name='year' value={formData.year} onChange={handleChange} />
           </div>
         </div>
         <div>
           <label>Make </label>
           <div>
-            <input className="inputBox" placeholder="guitar manufacturer" type='text' value={enteredMake} onChange={makeChangeHandler} />
+            <input className="inputBox" placeholder="guitar manufacturer" type='text' name='make' value={formData.make} onChange={handleChange} />
           </div>
         </div>
         <div>
           <label>Model </label>
           <div>
-            <input className="inputBox" placeholder="model of your guitar" type='text' value={enteredModel} onChange={modelChangeHandler} />
+            <input className="inputBox" placeholder="model of your guitar" type='text' name='model' value={formData.model} onChange={handleChange} />
           </div>
         </div>
         <div>
           <label>Image </label>
           <div>
-            <input className="inputBox" placeholder="image URL of your guitar" type='text' value={enteredImage} onChange={imageChangeHandler} />
+            <input className="inputBox" placeholder="image URL of your guitar" type='text' name='image' value={formData.image} onChange={handleChange} />
           </div>
         </div>
         <div>
           <label>Price $</label>
           <div>
-            <input className="inputBox" placeholder="your bid price" type='number' value={enteredPrice} onChange={priceChangeHandler} />
+            <input className="inputBox" placeholder="your bid price" type='number' name='price' value={formData.price} onChange={handleChange} />
           </div>
         </div>
       </div>
