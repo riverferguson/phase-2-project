@@ -825,17 +825,17 @@
       "year": 2022,
       "make": "Fender",
       "model": "American Ultra Stratocaster HSS",
-      "image": "",
-      "price": 1999
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95545000001000-00-720x720.jpg",
+      "price": 2849
     },
     {
       "name": "Guitar 93",
       "new": false,
-      "year": 2007,
+      "year": 2010,
       "make": "PRS",
       "model": "Custom 24",
-      "image": "",
-      "price": 3299
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/J44585000004000-00-720x720.jpg",
+      "price": 4990
     },
     {
       "name": "Guitar 94",
@@ -843,17 +843,17 @@
       "year": 2023,
       "make": "Gretsch",
       "model": "G5420TG Electromatic",
-      "image": "",
-      "price": 1099
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L47583000005000-00-720x720.jpg",
+      "price": 900
     },
     {
       "name": "Guitar 95",
       "new": false,
-      "year": 1972,
+      "year": 1973,
       "make": "Fender",
-      "model": "Stratocaster",
-      "image": "",
-      "price": 3999
+      "model": "American Vintage II Stratocaster",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95498000001000-00-720x720.jpg",
+      "price": 2279
     },
     {
       "name": "Guitar 96",
@@ -861,8 +861,8 @@
       "year": 2022,
       "make": "Epiphone",
       "model": "Casino Coupe",
-      "image": "",
-      "price": 449
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/518295000015000-00-720x720.jpg",
+      "price": 700
     },
     {
       "name": "Guitar 97",
@@ -870,8 +870,8 @@
       "year": 1983,
       "make": "Gibson",
       "model": "Explorer",
-      "image": "",
-      "price": 5999
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/M01004000001000-00-720x720.jpg",
+      "price": 2499
     },
     {
       "name": "Guitar 98",
