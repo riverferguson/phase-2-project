@@ -15,6 +15,10 @@ function App() {
     setShowForm(showForm => !showForm)
   }
 
+  const addGuitar = (newGuitar) => {
+    setGuitars([...guitars, newGuitar])
+  }
+
   const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
   //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
 
@@ -30,7 +34,7 @@ function App() {
       <Search search={search} setSearch={setSearch}/>
       <div className="sideBar" >
         <button className="sellButton" onClick={handleShowForm}>Sell Your Guitar Here</button>
-      {showForm? <GuitarForm /> : null}
+      {showForm? <GuitarForm addGuitar={addGuitar}/> : null}
       </div>
       <main>
       <GuitarPage guitars={filteredGuitars}/>
