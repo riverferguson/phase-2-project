@@ -736,7 +736,7 @@
       "make": "Fender",
       "model": "Player Telecaster",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/L21565000001000-00-720x720.jpg",
-      "price": 9
+      "price": 799
     },
     {
       "name": "Guitar 83",
@@ -777,19 +777,19 @@
     {
       "name": "Guitar 87",
       "new": false,
-      "year": 1976,
+      "year": 1977,
       "make": "Fender",
       "model": "Telecaster",
-      "image": "",
-      "price": 4999
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L95504000002000-00-720x720.jpg",
+      "price": 2199
     },
     {
       "name": "Guitar 88",
       "new": true,
-      "year": 2022,
-      "make": "Epiphone",
-      "model": "Joe Bonamassa Les Paul Standard Outfit",
-      "image": "",
+      "year": 1962,
+      "make": "Epiphone Joe Bonamassa",
+      "model": "ES-335",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L96526000001000-00-720x720.jpg",
       "price": 699
     },
     {
@@ -798,7 +798,7 @@
       "year": 1969,
       "make": "Gibson",
       "model": "ES-335",
-      "image": "",
+      "image": "https://images.reverb.com/image/upload/s--cMVfOS5g--/f_auto,t_supersize/v1663850527/jv1pkgm3jxiext8jh1cq.webp",
       "price": 7999
     },
     {
@@ -807,7 +807,7 @@
       "year": 2023,
       "make": "Fender",
       "model": "American Ultra Jazzmaster",
-      "image": "",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L69929000002000-00-720x720.jpg",
       "price": 1999
     },
     {
@@ -816,8 +816,8 @@
       "year": 1959,
       "make": "Gibson",
       "model": "Les Paul Standard",
-      "image": "",
-      "price": 22599
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/L20539000005000-00-720x720.jpg",
+      "price": 6699
     },
     {
       "name": "Guitar 92",
