@@ -1,5 +1,3 @@
-// header will hold this component
-// form here
 import './GuitarForm.css'
 import { useState } from 'react'
 
@@ -40,14 +38,14 @@ const GuitarForm = () => {
     setPrice(event.target.value);
   }
 
-  const submitHandler = (event) => {
-    event.preventDefault();
+  // const submitHandler = (event) => {
+  //   event.preventDefault();
     
-    setEnteredName('');
-  }
+  //   setEnteredName('');
+  // }
 
   return (
-    <form onSubmit={submitHandler}>
+    <form>
       <div className="guitarForm">
         <div>
           <label>Name </label>
