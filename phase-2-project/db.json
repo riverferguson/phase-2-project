@@ -899,14 +899,6 @@
       "model": "Custom 24",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/Floyd-Custom-24-Electric-Guitar-Cobalt-Smokeburst/L95383000001000-00-220x220.jpg",
       "price": 3899
-    },
-    {
-      "year": "1999",
-      "make": "Gibson",
-      "model": "Les Paul Studio",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/Slash-Les-Paul-Standard-Left-Handed-Electric-Guitar-Level-2-November-Burst-194744676215/L78260000001000-00-220x220.jpg",
-      "price": "20000",
-      "id": 101
     }
   ]
 }

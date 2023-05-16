@@ -22,6 +22,11 @@ function App() {
     setGuitars([...guitars, newGuitar])
   }
 
+  const deleteGuitar = (guitarToDelete) => {
+    const updatedGuitar = guitars.filter(guitar => guitar.id !== guitarToDelete.id)
+    setGuitars(updatedGuitar)
+  }
+
   const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
   //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
 
@@ -40,7 +45,7 @@ function App() {
       {showForm? <GuitarForm addGuitar={addGuitar}/> : null}
       </div>
       <main>
-      <GuitarPage guitars={filteredGuitars}/>
+      <GuitarPage guitars={filteredGuitars} deleteGuitar={deleteGuitar}/>
       </main>
       <footer></footer>
     </div>
