@@ -1,12 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Cart.css'
 
-const Cart = () => {
-  return (
-    <Link to='/guitars/cart'>
-      <div>Cart</div>
-    </Link>
-  )
-}
 
-export default Cart
+const handlePurchase = () => {
+  alert("Congrats on your purchase!")
+ }
+
+
+  const Cart = ({cartItems, guitars}) => {
+    return (
+      <div className='cart-div'>
+        <h2 className='cart-header'>Cart</h2>
+        {cartItems.map((item, index) => (
+          <div className="cart" key={index}>
+            <img src={item.image} alt={item.make}/>
+            <div>Make: {item.make}</div>
+            <div>Model: {item.model}</div>
+            <div>Price: ${item.price}</div>
+            <button onClick={handlePurchase}>Complete Purchase</button>
+          </div>
+        ))}
+      </div>
+    );
+  };
+  export default Cart

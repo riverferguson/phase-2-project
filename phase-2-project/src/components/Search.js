@@ -1,10 +1,8 @@
 const Search = ({search, setSearch}) => {
   
-
   const handleMakeSearch = (event) => {
     setSearch(event.target.value);
   }
-
 
   return (
     <form>

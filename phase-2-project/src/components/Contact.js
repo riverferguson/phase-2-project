@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    // <Link to='/guitars/contact'>
     <div className='contact-us'>
       <h2>Contact Us</h2>
       <h3>Customer Support:</h3>
       <p> 
         For any assistance or questions regarding your order, product inquiries, or general support, our customer support team is ready to help. You can reach us by:
       </p>
-      <ul>
+      <ul className='contact-info'>
         <li>Email: Guitartrader@yopmail.com </li>
         <li>Phone: 412-986-7677</li>
       </ul>
@@ -28,7 +28,6 @@ const Contact = () => {
         United States
       </p>
     </div>
-    // {/* </Link> */}
   )
 }
 

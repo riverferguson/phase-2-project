@@ -15,6 +15,7 @@ import Search from './Search'
 function App() {
   const [guitars, setGuitars] = useState([]);
   const [search, setSearch] = useState("")
+  const [cartItems, setCartItems] = useState([]);
 
 
 
@@ -44,14 +45,14 @@ function App() {
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
         <Route path='/guitars/cart'>
-          <Cart/>
+          <Cart cartItems={cartItems} guitars={guitars}/>
         </Route>
         <Route path='/guitars/contact'>
           <Contact/>
         </Route>
         <Route exact path='/'>
           <Search search={search} setSearch={setSearch}/>
-          <GuitarPage deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
+          <GuitarPage cartItems={cartItems} setCartItems={setCartItems} deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>
           <Error/>

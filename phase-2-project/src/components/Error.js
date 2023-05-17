@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Error = () => {
   return (
-    <Link to='/*'>
-      <div>404 Page Not Found</div>
-    </Link>
+    <>
+      <div>
+        <img src='phase-2-project/public/error2.jpg' alt="Not Found"></img>
+      </div>
+    </>
   )
 }
 
