@@ -19,6 +19,7 @@ const handlePurchase = () => {
             <div>Model: {item.model}</div>
             <div>Price: ${item.price}</div>
             <button onClick={handlePurchase}>Complete Purchase</button>
+            <button>🗑️</button>
           </div>
         ))}
       </div>

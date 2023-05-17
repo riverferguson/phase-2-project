@@ -10,6 +10,7 @@ import Error from "./Error";
 import Cart from "./Cart";
 import Contact from "./Contact";
 import Search from './Search'
+import Tuner from "./Tuner";
 
 
 function App() {
@@ -63,6 +64,9 @@ function App() {
         </Route>
         <Route path='/guitars/contact'>
           <Contact/>
+        </Route>
+        <Route path='/guitars/tuner'>
+          <Tuner/>
         </Route>
         <Route exact path='/'>
           <Search searchMake={searchMake} setSearchMake={setSearchMake} modelSearch={modelSearch} setModelSearch={setModelSearch}/>

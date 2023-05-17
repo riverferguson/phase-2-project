@@ -21,6 +21,7 @@ const Nav = ({handleDarkModeClick, darkMode}) => {
             <Link to="/guitars/cart">  Cart </Link>
             <Link to='/guitars/new'>  Sell </Link>
             <Link to="/guitars/contact">  Contact Us </Link>
+            <Link to="/guitars/tuner">Tuner</Link>
        </div>
        <button onClick={handleDarkModeClick}>{buttonContent}</button>
       </Typography>
