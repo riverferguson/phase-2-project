@@ -1,30 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { AppBar, CssBaseline, Toolbar, Typography} from "@mui/material";
 
 const Nav = () => {
   return (
-    <nav className="nav">
-        <a href="/" className="site-title">
-       LOGO Guitar Traders
-        </a>
-        <ul>
-            <li>
-                <a href="FOOTER">  Search</a>
-            </li>
-            <li>
-                <a href="FOOTER">  Shop</a>
-            </li>
-            <li>
-            <a href="FOOTER">  Cart</a>
-            </li>
-            <li>
-            <a href="FOOTER">  Sell</a>
-            </li>
-            <li>
-            <a href="FOOTER"> Contact us</a>
-            </li>
-        </ul>
-    </nav>
-  )
+
+  <>
+<span>
+  <CssBaseline/>
+  <AppBar className='appbar' sx={{bgcolor: "green" }} position="sticky">
+    <Toolbar>
+      <Typography variant="h6">
+       Guitar Traders
+       <span>
+            <Link to="/">  Shop</Link>
+            <Link to="/guitars/cart">  Cart</Link>
+            <Link to='/guitars/new'>  Sell </Link>
+            <Link to="/guitars/contact">  Contact Us</Link>
+       </span>
+      </Typography>
+    </Toolbar>
+  </AppBar>
+</span>
+</>
+)
 }
 
 export default Nav
