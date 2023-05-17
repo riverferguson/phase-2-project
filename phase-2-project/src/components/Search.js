@@ -5,7 +5,6 @@ const Search = ({searchType, setSearchType, modelSearch, setModelSearch}) => {
   
 
   const handleMakeSearch = (event) => {
-    debugger
     setSearchType(event.target.value);
   }
 
@@ -19,14 +18,14 @@ const Search = ({searchType, setSearchType, modelSearch, setModelSearch}) => {
       <div className="search">
         <span>
           <label>Search by: </label>
-          <label>Make </label>
+          <label> </label>
           <input type='radio' name="query" value='make' onChange={handleMakeSearch} />
-          <label>Model </label>
+          <label>Make </label>
           <input type='radio' name="query"value='model' onChange={handleMakeSearch}/>
         </span>
         <span>
-          <label>Search by Model: </label>
-          <input placeholder="search by " value={modelSearch} onChange={handleModelSearch}/>
+          <label> Model: </label>
+          <input placeholder="search by "  onChange={handleModelSearch}/>
         </span>
       </div>
   )
