@@ -15,7 +15,7 @@ import Search from './Search'
 function App() {
   const [guitars, setGuitars] = useState([]);
   const [cartItems, setCartItems] = useState([]);
-  const [searchType, setSearchType] = useState("")
+  const [searchMake, setSearchMake] = useState("")
   const [modelSearch, setModelSearch] = useState("")
 
 
@@ -30,11 +30,11 @@ function App() {
   }
 
   const filteredGuitars = guitars.filter(guitar => {
-    const makeMatch = !searchType || searchType === 'make' ? 
-      guitar.make.toLowerCase().includes(searchType.toLowerCase()) : 
+    const makeMatch = !searchMake || searchMake === 'make' ? 
+      guitar.make.toLowerCase().includes(modelSearch.toLowerCase()) : 
       false;
       
-    const modelMatch = searchType === 'model' ? 
+    const modelMatch = !searchMake || searchMake === 'model' ? 
       guitar.model.toLowerCase().includes(modelSearch.toLowerCase()) :
       false;
       
@@ -61,7 +61,7 @@ function App() {
           <Contact/>
         </Route>
         <Route exact path='/'>
-          <Search searchType={searchType} setSearchType={setSearchType} modelSearch={modelSearch} setModelSearch={setModelSearch}/>
+          <Search searchMake={searchMake} setSearchMake={setSearchMake} modelSearch={modelSearch} setModelSearch={setModelSearch}/>
           <GuitarPage cartItems={cartItems} setCartItems={setCartItems} deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>
