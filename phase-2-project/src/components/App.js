@@ -29,8 +29,16 @@ function App() {
   }
 
   const filteredGuitars = guitars.filter(guitar => {
-    return !searchType || searchType === 'make'? guitar.make.toLowerCase().includes(searchType.toLowerCase() ) : guitar.model.toLowerCase().includes(modelSearch.toLowerCase()) 
-  })
+    const makeMatch = !searchType || searchType === 'make' ? 
+      guitar.make.toLowerCase().includes(searchType.toLowerCase()) : 
+      false;
+      
+    const modelMatch = searchType === 'model' ? 
+      guitar.model.toLowerCase().includes(modelSearch.toLowerCase()) :
+      false;
+      
+    return makeMatch || modelMatch;
+  });
  
 
   useEffect(() => {
