@@ -10,7 +10,7 @@ GuitarTraders is a multi-page React application for buying and selling guitars. 
 * run `npx json-server --watch db.json --port=3001` to simulate the backend server
 * in a split/sperate terminal, run `npm start` which will open the React application in `localhost:3000`
 
-## How to Use the Program
+## Application Features
 1. Select between light and dark mode
 2. Select whether you want to search by Make or Model and type your search in to filter results from the guitar selection.
 3. Remove items from the guitar selection that you do not want by clicking on the trash icon.
