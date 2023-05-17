@@ -2,7 +2,10 @@ import React from 'react'
 
 const Tuner = () => {
   return (
-    <div>Tuner</div>
+    <div>
+        <h1>Click Link Below To Tune Your Guitar!</h1>
+        <img src=""/>
+    </div>
   )
 }
 
