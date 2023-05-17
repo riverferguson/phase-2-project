@@ -10,15 +10,6 @@
       "price": 999
     },
     {
-      "id": 2,
-      "new": false,
-      "year": 1984,
-      "make": "Gibson",
-      "model": "Les Paul",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
-      "price": 1499
-    },
-    {
       "id": 3,
       "new": true,
       "year": 2023,
