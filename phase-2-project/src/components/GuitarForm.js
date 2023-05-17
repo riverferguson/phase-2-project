@@ -49,7 +49,7 @@ const GuitarForm = ({ addGuitar }) => {
 
           <input
             className="inputBox"
-            placeholder="what year was your guitar made?"
+            placeholder="ex. 1969"
             type="number"
             name="year"
             value={formData.year}
@@ -62,7 +62,7 @@ const GuitarForm = ({ addGuitar }) => {
 
           <input
             className="inputBox"
-            placeholder="guitar manufacturer"
+            placeholder="ex. Fender"
             type="text"
             name="make"
             value={formData.make}
@@ -75,7 +75,7 @@ const GuitarForm = ({ addGuitar }) => {
 
           <input
             className="inputBox"
-            placeholder="model of your guitar"
+            placeholder="ex. Stratocaster"
             type="text"
             name="model"
             value={formData.model}
@@ -88,7 +88,7 @@ const GuitarForm = ({ addGuitar }) => {
 
           <input
             className="inputBox"
-            placeholder="image URL of your guitar"
+            placeholder="ex. https://guitar.com/yourGuitarImage.jpg"
             type="text"
             name="image"
             value={formData.image}
@@ -101,7 +101,7 @@ const GuitarForm = ({ addGuitar }) => {
 
           <input
             className="inputBox"
-            placeholder="your bid price"
+            placeholder="ex. 699.99"
             type="number"
             name="price"
             value={formData.price}
