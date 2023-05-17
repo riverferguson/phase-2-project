@@ -14,7 +14,8 @@ import Search from './Search'
 
 function App() {
   const [guitars, setGuitars] = useState([]);
-  const [search, setSearch] = useState("")
+  const [searchType, setSearchType] = useState("")
+  const [modelSearch, setModelSearch] = useState("")
 
 
 
@@ -27,8 +28,11 @@ function App() {
     setGuitars(updatedGuitar)
   }
 
-  const filteredGuitars = guitars.filter(guitar => guitar.make.toLowerCase().includes(search.toLowerCase()))
-  //const finalGuitarFilter = filteredGuitars.filter(guitar => guitar.model.toLowerCase().includes(search.toLowerCase()))
+  const filteredGuitars = guitars.filter(guitar => {
+    return !searchType || searchType === 'make'? guitar.make.toLowerCase().includes(searchType.toLowerCase() ) : guitar.model.toLowerCase().includes(modelSearch.toLowerCase()) 
+
+  })
+ 
 
   useEffect(() => {
     fetch("http://localhost:3001/guitars")
@@ -50,7 +54,7 @@ function App() {
           <Contact/>
         </Route> */}
         <Route exact path='/'>
-        <Search search={search} setSearch={setSearch}/>
+        <Search searchType={searchType} setSearchType={setSearchType} modelSearch={modelSearch} setModelSearch={setModelSearch}/>
           <GuitarPage deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>

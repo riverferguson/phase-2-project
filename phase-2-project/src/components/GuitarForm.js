@@ -42,7 +42,8 @@ const GuitarForm = ({ addGuitar }) => {
 
   return (
     <form  className="guitarForm" onSubmit={handleSubmit}>
-      <label>Year </label>
+      <label className='label'>Year </label>
+      
       <input
         className="inputBox"
         placeholder="what year was your guitar made?"
@@ -52,7 +53,7 @@ const GuitarForm = ({ addGuitar }) => {
         onChange={handleChange}
       />
 
-      <label>Make </label>
+      <label className='label'>Make </label>
 
       <input
         className="inputBox"
@@ -63,7 +64,7 @@ const GuitarForm = ({ addGuitar }) => {
         onChange={handleChange}
       />
 
-      <label>Model </label>
+      <label className='label'>Model </label>
 
       <input
         className="inputBox"
@@ -74,7 +75,7 @@ const GuitarForm = ({ addGuitar }) => {
         onChange={handleChange}
       />
 
-      <label>Image </label>
+      <label className='label'>Image </label>
 
       <input
         className="inputBox"
@@ -85,7 +86,7 @@ const GuitarForm = ({ addGuitar }) => {
         onChange={handleChange}
       />
 
-      <label>Price $</label>
+      <label className='label'>Price $</label>
 
       <input
         className="inputBox"
