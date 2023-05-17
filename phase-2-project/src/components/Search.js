@@ -1,7 +1,7 @@
 import "./Search.css"
 
 
-const Search = ({searchMake, setSearchMake, modelSearch, setModelSearch}) => {
+const Search = ({ setSearchMake, setModelSearch}) => {
   
 
   const handleMakeSearch = (event) => {
