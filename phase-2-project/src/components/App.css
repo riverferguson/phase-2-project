@@ -27,3 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+
+
+div#root .appbar {
+  background-color: rgb(202, 44, 42);
+}
+
+div#root .appbar a {
+  margin-right: 1rem;
+}
+

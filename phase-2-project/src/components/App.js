@@ -7,13 +7,14 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import Footer from "./Footer";
 import Error from "./Error";
-// import Cart from "./Cart";
-// import Contact from "./Contact";
+import Cart from "./Cart";
+import Contact from "./Contact";
 import Search from './Search'
 
 
 function App() {
   const [guitars, setGuitars] = useState([]);
+  const [cartItems, setCartItems] = useState([]);
   const [searchType, setSearchType] = useState("")
   const [modelSearch, setModelSearch] = useState("")
 
@@ -39,7 +40,6 @@ function App() {
       
     return makeMatch || modelMatch;
   });
- 
 
   useEffect(() => {
     fetch("http://localhost:3001/guitars")
@@ -54,15 +54,15 @@ function App() {
         <Route path='/guitars/new'>
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
-        {/* <Route>
-          <Cart />
-          </Route>
-          <Route>
+        <Route path='/guitars/cart'>
+          <Cart cartItems={cartItems} guitars={guitars}/>
+        </Route>
+        <Route path='/guitars/contact'>
           <Contact/>
-        </Route> */}
+        </Route>
         <Route exact path='/'>
-        <Search searchType={searchType} setSearchType={setSearchType} modelSearch={modelSearch} setModelSearch={setModelSearch}/>
-          <GuitarPage deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
+          <Search searchType={searchType} setSearchType={setSearchType} modelSearch={modelSearch} setModelSearch={setModelSearch}/>
+          <GuitarPage cartItems={cartItems} setCartItems={setCartItems} deleteGuitar={deleteGuitar} guitars={filteredGuitars}/>
         </Route>
         <Route path='/*'>
           <Error/>
