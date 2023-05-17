@@ -5,7 +5,6 @@ import './Nav.css'
 
 const Nav = () => {
   return (
-
   <>
 <span>
   <CssBaseline/>

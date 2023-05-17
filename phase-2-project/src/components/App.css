@@ -37,3 +37,14 @@ div#root .appbar a {
   margin-right: 1rem;
 }
 
+.App {
+  color: var(--color);
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.App.light {
+  --color: var(--black);
+  --background: var(--white);
+  --primary: var(--dark-turquoise);
+}

@@ -17,7 +17,7 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [searchMake, setSearchMake] = useState("")
   const [modelSearch, setModelSearch] = useState("")
-
+ 
 
 
   const addGuitar = (newGuitar) => {
@@ -48,7 +48,7 @@ function App() {
   }, []);
 
   return (
-      <>
+      <div>
         <Nav />
         <Switch>
         <Route path='/guitars/new'>
@@ -69,7 +69,7 @@ function App() {
         </Route>
         </Switch>
       <Footer/>
-     </>
+     </div>
   );
 }
 
