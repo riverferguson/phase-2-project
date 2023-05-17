@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AppBar, CssBaseline, Toolbar, Typography} from "@mui/material";
+import './Nav.css'
 
-const Nav = () => {
+
+const Nav = ({handleDarkModeClick, darkMode}) => {
+
+  const buttonContent = darkMode ? "Light Mode" : "Dark Mode"
+
   return (
-
   <>
 <span>
   <CssBaseline/>
@@ -17,7 +21,9 @@ const Nav = () => {
             <Link to="/guitars/cart">  Cart </Link>
             <Link to='/guitars/new'>  Sell </Link>
             <Link to="/guitars/contact">  Contact Us </Link>
+            <Link to="/guitars/tuner">Tuner</Link>
        </div>
+       <button onClick={handleDarkModeClick}>{buttonContent}</button>
       </Typography>
     </Toolbar>
   </AppBar>

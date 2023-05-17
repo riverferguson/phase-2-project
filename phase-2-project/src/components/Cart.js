@@ -1,14 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import './Cart.css'
 
 
-const handlePurchase = () => {
-  alert("Congrats on your purchase!")
- }
 
+  const Cart = ({cartItems, deleteGuitar}) => {
 
-  const Cart = ({cartItems, guitars}) => {
+    const handlePurchase = () => {
+      alert("Congrats on your purchase!")
+    }
+
+    const handleDelete = (guitar) => {
+      fetch(`http://localhost:3001/cart/${guitar.id}`, {
+        method: "DELETE",
+      })
+      .then(() => deleteGuitar({...guitar, id: guitar.productId}, "cart"))
+      }
+
     return (
       <div className='cart-div'>
         <h2 className='cart-header'>Cart</h2>
@@ -18,9 +26,11 @@ const handlePurchase = () => {
             <div>Make: {item.make}</div>
             <div>Model: {item.model}</div>
             <div>Price: ${item.price}</div>
-            <button onClick={handlePurchase}>Complete Purchase</button>
+            <button onClick={() => handleDelete(item)}>🗑️</button>
+
           </div>
         ))}
+        <button onClick={handlePurchase}>Complete Purchase</button>
       </div>
     );
   };

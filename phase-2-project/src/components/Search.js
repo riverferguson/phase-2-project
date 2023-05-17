@@ -1,6 +1,9 @@
 import "./Search.css"
-const Search = ({searchMake, setSearchMake, modelSearch, setModelSearch}) => {
+
+
+const Search = ({ setSearchMake, setModelSearch}) => {
   
+
   const handleMakeSearch = (event) => {
     setSearchMake(event.target.value);
   }
@@ -9,7 +12,9 @@ const Search = ({searchMake, setSearchMake, modelSearch, setModelSearch}) => {
    setModelSearch(event.target.value)
  }
 
+
   return (
+    
       <div className="search">
         <span>
           <label>Search by: </label>

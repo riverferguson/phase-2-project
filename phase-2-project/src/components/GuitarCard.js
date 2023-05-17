@@ -1,21 +1,32 @@
 import React from 'react'
 import './GuitarCard.css'
 
-const GuitarCard = ({guitar, deleteGuitar, cartItems, setCartItems}) => {
-    const {make, model, year, image, price, id} = guitar
+const GuitarCard = ({guitar, deleteGuitar,setCartItems, addCartItem}) => {
+const {make, model, year, image, price, id} = guitar
+
+    
 
 const handleDelete = () => {
 fetch(`http://localhost:3001/guitars/${id}`, {
   method: "DELETE",
 })
 .then(resp => resp.json())
-.then(() => {deleteGuitar(guitar)})
+.then(() => {deleteGuitar(guitar, "guitars")})
 }
 
+
 const handleAddToCart = () => {
-  const newItem = { make, model, year, image, price, id };
-  setCartItems([...cartItems, newItem]);
-};
+  const newItem = { make, model, year, image, price, productId: id};
+  fetch(`http://localhost:3001/cart`, {
+  method: "POST", 
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(newItem)
+})
+  .then(res => res.json())
+  .then(newItem => addCartItem(newItem))
+}
 
   return (
     <div className="main">

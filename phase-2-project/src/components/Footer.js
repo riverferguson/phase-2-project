@@ -15,16 +15,16 @@ const Footer = () => {
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
             </a>
-            <a href='https://facebook.com'>
+            <a href='https://facebook.com' target="_blank" rel='noreferrer'>
             <FacebookIcon sx={{mr: 2}} />
             </a>
-            <a href='https://instagram.com'>
+            <a href='https://instagram.com' target="_blank" rel='noreferrer'>
             <InstagramIcon sx={{mr: 2}} />
             </a>
-            <a href='https://gmail.com/'>
+            <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
             <MailOutlineIcon sx={{mr: 2}} />
             </a>
-            Guitar Trader Inc.
+            Guitar Trader Inc. 
         </Typography>
     </Toolbar>
    </AppBar>

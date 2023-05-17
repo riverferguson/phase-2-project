@@ -36,3 +36,28 @@ div#root .appbar {
 div#root .appbar a {
   margin-right: 1rem;
 }
+
+.App {
+  color: var(--color);
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.App.light {
+  --color: var(--black);
+  --background: var(--white);
+  --primary: var(--white);
+}
+
+:root {
+  --dark-turquoise: #00333f;
+  --black: #030416;
+  --white: #f1f1f1;
+  --grey: #d6e2e7;
+  --dark-grey: #7f8a8e;
+  --purple: #cda2ff;
+  --green: #00ef7c;
+  --color: var(--white);
+  --background: var(--dark-grey);
+  --primary: var(--white);
+}
