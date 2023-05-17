@@ -17,7 +17,7 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [searchMake, setSearchMake] = useState("")
   const [modelSearch, setModelSearch] = useState("")
- 
+  const [darkMode, setDarkMode] = useState(false)
 
 
   const addGuitar = (newGuitar) => {
@@ -41,6 +41,10 @@ function App() {
     return makeMatch || modelMatch;
   });
 
+  const handleDarkModeClick = () => {
+    setDarkMode(currentValue => !currentValue)
+  }
+
   useEffect(() => {
     fetch("http://localhost:3001/guitars")
       .then((resp) => resp.json())
@@ -48,8 +52,8 @@ function App() {
   }, []);
 
   return (
-      <div>
-        <Nav />
+      <div className={darkMode ? "App" : "App light"}>
+        <Nav handleDarkModeClick={handleDarkModeClick} darkMode={darkMode}/>
         <Switch>
         <Route path='/guitars/new'>
           <GuitarForm addGuitar={addGuitar}/>
