@@ -1,4 +1,4 @@
-# GuitarTraders
+# Guitar Traders Inc.
 GuitarTraders is a multi-page React application for buying and selling guitars. You can filter guitars by make and model, add them to a cart, and list your guitar(s) for sale.
 
 ## Installation
