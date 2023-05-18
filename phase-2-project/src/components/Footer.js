@@ -8,7 +8,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 const Footer = () => {
   return (
         <>
-          <div className='icon-bar'>
+          <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px' }}>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
             </a>
@@ -21,11 +21,9 @@ const Footer = () => {
             <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
             <MailOutlineIcon sx={{mr: 2}} />
             </a>
-          </div>
-          <div>
             Guitar Trader Inc. 
             <a href='#root'>
-            <button className="back-button"> Back to Top</button>
+            <button className="back-button" style={{marginLeft: '10px'}}> Back to Top</button>
             </a>
           </div>
         </>
