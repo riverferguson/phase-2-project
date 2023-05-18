@@ -27,12 +27,22 @@
 }
 
 .listButton {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  border: #e04b52;
+  transition-duration: 0.5s;
   align-items: left;
   border-radius: 10px;
   font-size: 20px;
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.listButton:hover {
+  background-color: #efa0a0;
+  color: white;
 }
 
 .label {
