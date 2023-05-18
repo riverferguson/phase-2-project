@@ -964,6 +964,15 @@
       "price": 2899,
       "productId": 4,
       "id": 7
+    },
+    {
+      "make": "Fender",
+      "model": "Stratocaster",
+      "year": 2022,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
+      "price": 999,
+      "productId": 1,
+      "id": 8
     }
   ]
 }
