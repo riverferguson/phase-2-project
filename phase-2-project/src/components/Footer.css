@@ -1,0 +1,26 @@
+/* .back-button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-overflow: initial;
+    height: 30px;
+    align-self: center;
+    background-color: #d6d3d3;
+} */
+
+.back-button {
+    background-color: #c14d4d;
+    color: black;
+    height: fit-content;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    transition-duration: 0.4s;
+  }
+  
+  .back-button:hover {
+    background-color: #555555;
+    color: white;
+  }

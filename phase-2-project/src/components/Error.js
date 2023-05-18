@@ -5,7 +5,7 @@ const Error = () => {
     <>
       <div className='file-not-found'>
         <h2>Oops...</h2>
-        <img src={process.env.PUBLIC_URL + "images/error.png"} alt="Not Found"></img>
+        <img src={process.env.PUBLIC_URL + "/images/error.png"} alt="Not Found"></img>
       </div>
     </>
   )

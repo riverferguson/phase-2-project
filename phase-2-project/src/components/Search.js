@@ -1,12 +1,8 @@
 import "./Search.css"
 
 
-const Search = ({ setSearchMake, setModelSearch}) => {
+const Search = ({setModelSearch}) => {
   
-
-  const handleMakeSearch = (event) => {
-    setSearchMake(event.target.value);
-  }
 
   const handleModelSearch = (event) => {
    setModelSearch(event.target.value)
@@ -17,15 +13,10 @@ const Search = ({ setSearchMake, setModelSearch}) => {
     
       <div className="search">
         <span>
-          <label>Search by: </label>
-          <label> </label>
-          <input type='radio' name="query" value='make' onChange={handleMakeSearch} />
-          <label>Make </label>
-          <input type='radio' name="query"value='model' onChange={handleMakeSearch}/>
+          <label>Search by: Make or Model </label>
         </span>
         <span>
-          <label> Model: </label>
-          <input placeholder="search by "  onChange={handleModelSearch}/>
+          <input className="search-input" placeholder=" search "  onChange={handleModelSearch}/>
         </span>
       </div>
   )

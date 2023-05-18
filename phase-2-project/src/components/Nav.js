@@ -8,7 +8,7 @@ const Nav = ({handleDarkModeClick, darkMode}) => {
 return (
   <nav className="nav">
   <Link to="/" className="site-title">
-  LOGO Guitar Traders
+  <img className='logo' src={process.env.PUBLIC_URL + "/images/logo.png"} alt='oops'/> Guitar Traders
         </Link>
         <ul>
             <li>
@@ -26,7 +26,7 @@ return (
             <li>
             <Link to="/guitars/tuner">Tuner</Link>
             </li>
-            <button onClick={handleDarkModeClick}>{buttonContent}</button>
+            <button className='dark-button' onClick={handleDarkModeClick}>{buttonContent}</button>
         </ul>
     </nav>
   )

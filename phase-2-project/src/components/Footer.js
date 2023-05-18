@@ -1,19 +1,15 @@
 import React from 'react'
-import { AppBar, CssBaseline, Toolbar, Typography} from "@mui/material";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import { Link } from 'react-router-dom';
+import './Footer.css'
+
 
 const Footer = () => {
   return (
         <>
-   {/* <CssBaseline/> */}
-   {/* <AppBar position="sticky">
-    <Toolbar> */}
-        <Typography variant="h6">
-          <div>
+          <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px' }}>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
             <TwitterIcon sx={{mr: 2}} />
             </a>
@@ -26,17 +22,12 @@ const Footer = () => {
             <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
             <MailOutlineIcon sx={{mr: 2}} />
             </a>
-          </div>
-          <div>
             Guitar Trader Inc. 
             <a href='#root'>
-            <button className="back-button"> Back to Top</button>
+            <button className="back-button" style={{marginLeft: '10px'}}> Back to Top</button>
             </a>
           </div>
-        </Typography>
-{/* </Toolbar>
-   </AppBar> */}
-</>
+        </>
   )
 }
 

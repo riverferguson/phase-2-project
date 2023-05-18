@@ -25,13 +25,14 @@ function App() {
     }
 
 
+
   const addGuitar = (newGuitar) => {
     setGuitars([...guitars, newGuitar])
   }
 
   const deleteGuitar = (guitarToDelete, collection) => {
     const fn = collection === "guitars" ? setGuitars : setCartItems
-    fn(currentGuitars => currentGuitars.filter(guitar => guitar.id !== guitarToDelete.id))
+    fn(currentGuitars => currentGuitars.filter(guitar => ((guitar.productId || guitar.id) !== guitarToDelete.id)))
   }
 
   const filteredGuitars = guitars.filter(guitar => {
@@ -64,7 +65,7 @@ function App() {
           <GuitarForm addGuitar={addGuitar}/>
         </Route>
         <Route path='/guitars/cart'>
-          <Cart deleteGuitar={deleteGuitar} cartItems={cartItems}/>
+          <Cart setCartItems={setCartItems} deleteGuitar={deleteGuitar} cartItems={cartItems}/>
         </Route>
         <Route path='/guitars/contact'>
           <Contact/>

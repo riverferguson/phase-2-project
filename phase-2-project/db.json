@@ -1,6 +1,24 @@
 {
   "guitars": [
     {
+      "id": 2,
+      "new": false,
+      "year": 1984,
+      "make": "Gibson",
+      "model": "Les Paul",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499
+    },
+    {
+      "id": 3,
+      "new": true,
+      "year": 2023,
+      "make": "PRS",
+      "model": "Custom 24",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
+      "price": 1999
+    },
+    {
       "id": 4,
       "new": false,
       "year": 1971,
@@ -845,15 +863,6 @@
       "model": "Explorer",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/1958-Korina-Explorer-Black-Pickguard-Electric-Guitar-Natural/L87952000001000-00-220x220.jpg",
       "price": 5999
-    },
-    {
-      "id": 98,
-      "new": true,
-      "year": 2023,
-      "make": "Fender",
-      "model": "American Professional II Stratocaster HSS",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/American-Professional-II-Stratocaster-Maple-Fingerboard-Electric-Guitar-Miami-Blue/L78115000005000-00-220x220.jpg",
-      "price": 1599
     },
     {
       "id": 99,
