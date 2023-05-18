@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.na li:hover {
+  background-color: #777;
+} 
+
+.search {
+  font-weight: 900;
+  text-align: center;
+  border: 0cqmax;
+
+}
+
+.formContainer {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-color: red;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: left;
+  width: 50%;
+  background-color: lightgray;
+  color: black;
+  font-size: 25px;
+  position: relative;
+  width: 50%;
+}
+
+.inputBox {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 10px;
+  border: 3px solid #555;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.listButton {
+  align-items: left;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.main {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+}
+
+.contact-us {
+  background-color: darkgrey;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-us h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-us h3 {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-us ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.contact-us ul li {
+  margin-bottom: 5px;
+}
+
+.cart {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+}
+
+.cart-header {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+div#root .appbar {
+  background-color: rgb(202, 44, 42);
+}
+
+div#root .appbar a {
+  margin-right: 1rem;
+}
+

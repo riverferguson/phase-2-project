@@ -1,0 +1,37 @@
+.main {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #e04b52;
+  font-weight: bolder;
+}
+
+.cart-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  border: #e04b52;
+  transition-duration: 0.5s;
+}
+
+.cart-button:hover {
+  background-color: #efa0a0;
+    color: white;
+}
+
+.trash-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  border: #e04b52;
+  transition-duration: 0.5s;
+}
+
+.trash-button:hover {
+  background-color: #efa0a0;
+    color: white;
+}
