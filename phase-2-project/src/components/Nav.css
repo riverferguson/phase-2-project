@@ -53,7 +53,13 @@ body {
     margin-right: 20px;
 }
 
-button {
+
+.dark-button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-overflow: initial;
     height: 30px;
     align-self: center;
 }

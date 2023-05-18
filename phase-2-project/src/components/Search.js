@@ -17,15 +17,14 @@ const Search = ({ setSearchMake, setModelSearch}) => {
     
       <div className="search">
         <span>
-          <label>Search by: </label>
+          <label>Search by: Make or Model </label>
           <label> </label>
-          <input type='radio' name="query" value='make' onChange={handleMakeSearch} />
+          {/* <input type='text' name="query" value='make' onChange={handleMakeSearch} />
           <label>Make </label>
-          <input type='radio' name="query"value='model' onChange={handleMakeSearch}/>
+          <input type='text' name="query"value='model' onChange={handleMakeSearch}/> */}
         </span>
         <span>
-          <label> Model: </label>
-          <input placeholder="search by "  onChange={handleModelSearch}/>
+          <input placeholder=" search "  onChange={handleModelSearch}/>
         </span>
       </div>
   )
