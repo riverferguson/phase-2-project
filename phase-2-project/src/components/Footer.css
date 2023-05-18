@@ -10,17 +10,17 @@
 } */
 
 .back-button {
-    background-color: #c14d4d;
-    color: black;
-    height: fit-content;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    color: white;
-    transition-duration: 0.4s;
-  }
-  
-  .back-button:hover {
-    background-color: #555555;
-    color: white;
-  }
+  background-color: #c14d4d;
+  color: black;
+  height: fit-content;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.back-button:hover {
+  background-color: #555555;
+  color: white;
+}

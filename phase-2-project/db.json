@@ -883,24 +883,5 @@
       "price": 3899
     }
   ],
-  "cart": [
-    {
-      "make": "Rickenbacker",
-      "model": "360",
-      "year": 1973,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/360-12-String-Electric-Guitar-Mapleglo/513659000204000-00-220x220.jpg",
-      "price": 3999,
-      "productId": 6,
-      "id": 3
-    },
-    {
-      "make": "Gibson",
-      "model": "Flying V",
-      "year": 1978,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/80s-Flying-V-Electric-Guitar-Ebony/M01003000001000-00-220x220.jpg",
-      "price": 2399,
-      "productId": 16,
-      "id": 4
-    }
-  ]
+  "cart": []
 }
