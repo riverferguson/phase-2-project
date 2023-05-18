@@ -3,8 +3,9 @@ import React from 'react'
 const Error = () => {
   return (
     <>
-      <div>
-        <img src='phase-2-project/public/error2.jpg' alt="Not Found"></img>
+      <div className='file-not-found'>
+        <h2>Oops...</h2>
+        <img src={process.env.PUBLIC_URL + "images/error.png"} alt="Not Found"></img>
       </div>
     </>
   )
