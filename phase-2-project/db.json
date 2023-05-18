@@ -883,5 +883,51 @@
       "price": 3899
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "make": "Gibson",
+      "model": "Les Paul",
+      "year": 1984,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499,
+      "productId": 2,
+      "id": 1
+    },
+    {
+      "make": "PRS",
+      "model": "Custom 24",
+      "year": 2023,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
+      "price": 1999,
+      "productId": 3,
+      "id": 2
+    },
+    {
+      "make": "Gretsch",
+      "model": "Country Gentleman",
+      "year": 1971,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
+      "price": 2899,
+      "productId": 4,
+      "id": 3
+    },
+    {
+      "make": "Epiphone",
+      "model": "SG",
+      "year": 2021,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Special-Satin-E1-Electric-Guitar-Cherry/J53182000001000-00-220x220.jpg",
+      "price": 599,
+      "productId": 5,
+      "id": 4
+    },
+    {
+      "make": "Rickenbacker",
+      "model": "360",
+      "year": 1973,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/360-12-String-Electric-Guitar-Mapleglo/513659000204000-00-220x220.jpg",
+      "price": 3999,
+      "productId": 6,
+      "id": 5
+    }
+  ]
 }
