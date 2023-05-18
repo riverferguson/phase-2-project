@@ -60,3 +60,8 @@
     background-color: #efa0a0;
     color: white;
   }
+
+  .empty-cart {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
