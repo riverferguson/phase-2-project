@@ -36,8 +36,8 @@ const handleAddToCart = () => {
             <div>Model: {model}</div>
             <div>Price: ${price}</div>
             <div>Year: {year}</div>
-            <button onClick={handleAddToCart}>🛒</button>
-            <button onClick={handleDelete}>🗑️</button>    
+            <button className='cart-button' onClick={handleAddToCart}>🛒</button>
+            <button className='trash-button' onClick={handleDelete}>🗑️</button>    
         </main>
     </div>
   )

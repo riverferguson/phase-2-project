@@ -37,14 +37,14 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
             <div>Model: {item.model}</div>
             <div>Price: ${item.price}</div>
             <div>Year: {item.year}</div>
-            <button onClick={() => handleDelete(item)}>Remove 🗑️</button>
+            <button className='delete-button' onClick={() => handleDelete(item)}>🗑️</button>
           </div>
         ))
       ) : (
         <div className="empty-cart">Your Cart is Empty</div>
       )}
       <div className="total-price">Cart Total: ${totalPrice}</div>
-      <button onClick={handlePurchase}>Complete Purchase</button>
+      <button className="purchase-button" onClick={handlePurchase}>Complete Purchase</button>
     </div>
   );
 };
