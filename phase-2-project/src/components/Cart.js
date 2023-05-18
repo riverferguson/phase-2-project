@@ -21,10 +21,12 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
       .then(cartItems => setCartItems(cartItems));
   }, [setCartItems]);
 
+
   useEffect(() => {
     const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
     setTotalPrice(totalPrice);
   }, [cartItems]);
+
 
   return (
     <div className="cart-div">
@@ -35,7 +37,8 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
           <div>Make: {item.make}</div>
           <div>Model: {item.model}</div>
           <div>Price: ${item.price}</div>
-          <button onClick={() => handleDelete(item)}>🗑️</button>
+          <div>Year: {item.year}</div>
+          <button onClick={() => handleDelete(item)}>Remove 🗑️</button>
         </div>
       ))}
       <div className="total-price">Cart Total: ${totalPrice}</div>
