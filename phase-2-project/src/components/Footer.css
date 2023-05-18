@@ -1,0 +1,10 @@
+.back-button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-overflow: initial;
+    height: 30px;
+    align-self: center;
+    background-color: #d6d3d3;
+}
