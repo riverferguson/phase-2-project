@@ -21,26 +21,28 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
       .then(cartItems => setCartItems(cartItems));
   }, [setCartItems]);
 
-
   useEffect(() => {
     const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
     setTotalPrice(totalPrice);
   }, [cartItems]);
 
-
   return (
     <div className="cart-div">
       <h1 className="cart-header">Cart</h1>
-      {cartItems.map((item, index) => (
-        <div className="cart" key={index}>
-          <img src={item.image} alt={item.make} />
-          <div>Make: {item.make}</div>
-          <div>Model: {item.model}</div>
-          <div>Price: ${item.price}</div>
-          <div>Year: {item.year}</div>
-          <button onClick={() => handleDelete(item)}>Remove 🗑️</button>
-        </div>
-      ))}
+      {cartItems.length > 0 ? (
+        cartItems.map((item, index) => (
+          <div className="cart" key={index}>
+            <img src={item.image} alt={item.make} />
+            <div>Make: {item.make}</div>
+            <div>Model: {item.model}</div>
+            <div>Price: ${item.price}</div>
+            <div>Year: {item.year}</div>
+            <button onClick={() => handleDelete(item)}>Remove 🗑️</button>
+          </div>
+        ))
+      ) : (
+        <div className="empty-cart">Your Cart is Empty</div>
+      )}
       <div className="total-price">Cart Total: ${totalPrice}</div>
       <button onClick={handlePurchase}>Complete Purchase</button>
     </div>

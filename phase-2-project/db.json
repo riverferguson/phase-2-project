@@ -892,5 +892,24 @@
       "price": 3899
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "make": "Gibson",
+      "model": "Les Paul",
+      "year": 1984,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
+      "price": 1499,
+      "productId": 2,
+      "id": 1
+    },
+    {
+      "make": "PRS",
+      "model": "Custom 24",
+      "year": 2023,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
+      "price": 1999,
+      "productId": 3,
+      "id": 2
+    }
+  ]
 }
