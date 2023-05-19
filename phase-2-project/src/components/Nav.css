@@ -7,7 +7,7 @@ body {
 }
 
 .nav {
-    background-color: #c14d4d;
+    background-color: #980505;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -71,7 +71,7 @@ body {
 } */
 
 .dark-button {
-    background-color: #c14d4d;
+    background-color: #980505;
     height: fit-content;
     text-align: center;
     margin-top: auto;
