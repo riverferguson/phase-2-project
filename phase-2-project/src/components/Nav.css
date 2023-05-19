@@ -20,6 +20,7 @@ body {
 
 .site-title {
     font-size: 2rem;
+    font-family: 'Rockwell Extra Bold', 'Rockwell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav ul {
@@ -44,7 +45,8 @@ body {
 }
 
 .nav li:hover {
-    background-color: #FFA559;
+    background-color: #3aa5cf;
+    color: black;
 }
 
 .nav-link-wrapper {
