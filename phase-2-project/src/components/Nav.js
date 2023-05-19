@@ -13,21 +13,27 @@ return (
         </Link>
         <ul>
             <li className='nav-link-wrapper'>
+            <Link to="/guitars/cart">🛒Cart </Link>
+            </li>
+
+            <li className='nav-link-wrapper'>
             <Link to="/">  Shop </Link>
             </li>
-            <li className='nav-link-wrapper'>
-            <Link to="/guitars/cart">  Cart </Link>
-            </li>
+
             <li className='nav-link-wrapper'>
             <Link to='/guitars/new'>  Sell </Link>
             </li>
+
             <li className='nav-link-wrapper'>
             <Link to="/guitars/contact">  Contact Us </Link>
             </li>
+
             <li className='nav-link-wrapper'>
             <Link to="/guitars/tuner"> Tuner</Link>
             </li>
+
             <button className='dark-button' onClick={handleDarkModeClick}>{buttonContent}</button>
+            
         </ul>
     </nav>
   )
