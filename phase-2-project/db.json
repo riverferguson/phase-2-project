@@ -827,14 +827,6 @@
       "model": "Custom 24",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/Floyd-Custom-24-Electric-Guitar-Cobalt-Smokeburst/L95383000001000-00-220x220.jpg",
       "price": 3899
-    },
-    {
-      "year": "2023",
-      "make": "Me",
-      "model": "Uberguitar 3000",
-      "image": "https://www.jazzguitar.be/forum/attachments/guitar-amps-gizmos/89706d1647380461-random-guitar-pics-img_0635-2-jpg",
-      "price": "700",
-      "id": 101
     }
   ],
   "cart": []

@@ -23,7 +23,7 @@ GuitarTraders is a multi-page React application for buying and selling guitars. 
 ![cart feature of web page](public/gifs/cartFeature4.gif)
 
 5. To put your guitar up for sale, click on the 'Sell' link on the Navigation bar which will take you to a form. Fill out the form and click 'List Your Guitar' to have your guitar listed on the page for sale.
-
+![submit a form to list your guitar on the site](public/gifs/sellGuitarFormFeature5.gif)
 
 6. For information about contacting our organization, click on the 'Contact Us' link in the Navigation bar.
 
