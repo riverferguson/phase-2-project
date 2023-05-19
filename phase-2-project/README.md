@@ -13,25 +13,33 @@ GuitarTraders is a multi-page React application for buying and selling guitars. 
 1. Select between light and dark mode
 ![how to use the dark toggle feature](public/gifs/darkModeToggleFinal1.gif)
 
+
 2. Search for a guitar by its Make or Model.
 ![how to use the search bar](public/gifs/searchFilter2.gif)
+
 
 3. Remove items from the guitar selection that you do not want by clicking on the trash icon.
 ![how to delete from guitar listing](public/gifs/deleteFromListing3.gif)
 
+
 4. Add Items from the guitar selection to the checkout cart by clicking on the cart icon. To check the guitars in your cart so far, click on the cart icon at the top right-hand corner of the web page. Remove any guitars you do not want to purchase anymore by clicking on the trash icon. The total price will change according to the items added to or removed from your cart.
 ![cart feature of web page](public/gifs/cartFeature4.gif)
+
 
 5. To put your guitar up for sale, click on the 'Sell' link on the Navigation bar which will take you to a form. Fill out the form and click 'List Your Guitar' to have your guitar listed on the page for sale.
 ![submit a form to list your guitar on the site](public/gifs/sellGuitarFormFeature5.gif)
 
+
 6. For information about contacting our organization, click on the 'Contact Us' link in the Navigation bar.
+
 
 
 7. To find a quick guitar tuner, click on the 'Tuner' link in the Naviation bar which will take you to an external website that hosts an online tuner.
 
 
+
 8. Links to the organization's socials can be found in the footer of the web page.
+
 
 
 ## Contributing
