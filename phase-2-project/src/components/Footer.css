@@ -10,18 +10,26 @@
 } */
 
 .back-button {
-    background-color: #980505;
-    color: black;
-    height: fit-content;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    color: white;
-    transition-duration: 0.4s;
-  }
-  
-  .back-button:hover {
-    background-color: #555555;
-    color: white;
-  }
+  background-color: #ECC9EE;
+  color: black;
+  height: fit-content;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  transition-duration: 0.4s;
+  border-radius: 2.5rem;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 1px black;
+}
 
+.back-button:hover {
+  background-color: #FEFF86;
+  color: black;
+}
+
+p {
+  font-size: 25px;
+  font-family: 'Rockwell Extra Bold', 'Rockwell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

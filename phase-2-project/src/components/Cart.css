@@ -65,3 +65,8 @@
     padding-top: 180px;
     padding-bottom: 180px;
   }
+
+  .hand-vector {
+    max-width: 10%;
+    max-height: 10%;
+  }
