@@ -10,17 +10,26 @@
 } */
 
 .back-button {
-  background-color: #c14d4d;
+  background-color: #ECC9EE;
   color: black;
   height: fit-content;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-  color: white;
+  color: black;
   transition-duration: 0.4s;
+  border-radius: 2.5rem;
+  font-size: 20px;
+  border: solid 1px black;
 }
 
 .back-button:hover {
-  background-color: #555555;
-  color: white;
+  background-color: #FEFF86;
+  color: black;
 }
+
+p {
+  font-size: 25px;
+  font-family: 'Rockwell Extra Bold', 'Rockwell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
