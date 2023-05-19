@@ -883,5 +883,24 @@
       "price": 3899
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "make": "Epiphone",
+      "model": "SG",
+      "year": 2021,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Special-Satin-E1-Electric-Guitar-Cherry/J53182000001000-00-220x220.jpg",
+      "price": 599,
+      "productId": 5,
+      "id": 1
+    },
+    {
+      "make": "Rickenbacker",
+      "model": "360",
+      "year": 1973,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/360-12-String-Electric-Guitar-Mapleglo/513659000204000-00-220x220.jpg",
+      "price": 3999,
+      "productId": 6,
+      "id": 2
+    }
+  ]
 }

@@ -51,13 +51,13 @@
   .delete-button {
     padding-left: 0px;
     padding-right: 0px;
-    border: #e04b52;
+    border: #980505;
     font-size: 25px;
     transition-duration: 0.5s;
   }
 
   .delete-button:hover {
-    background-color: #efa0a0;
+    background-color: #980505;
     color: white;
   }
 
