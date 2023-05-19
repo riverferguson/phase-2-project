@@ -41,7 +41,16 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
           </div>
         ))
       ) : (
-        <div className="empty-cart">Your Cart is Empty......</div>
+        <div className="empty-cart">
+          <p>Your Cart is Empty...... Rock On</p>
+          <img 
+          className='hand-vector' 
+          src={process.env.PUBLIC_URL + "/images/metal-hand-vector.png"} 
+          alt="DevilHorn Hand Vector by Vecteezy: https://www.vecteezy.com/free-vector/background"
+          >
+          </img>
+        
+        </div>
       )}
       <div className="total-price">Cart Total: ${totalPrice}</div>
       <button className="purchase-button" onClick={handlePurchase}>Complete Purchase</button>

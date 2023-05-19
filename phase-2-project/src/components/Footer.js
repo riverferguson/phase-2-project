@@ -11,16 +11,16 @@ const Footer = () => {
         <>
           <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px' }}>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
-            <TwitterIcon sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
+            <TwitterIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://facebook.com' target="_blank" rel='noreferrer'>
-            <FacebookIcon sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
+            <FacebookIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://instagram.com' target="_blank" rel='noreferrer'>
-            <InstagramIcon sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
+            <InstagramIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
-            <MailOutlineIcon sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
+            <MailOutlineIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <p>Guitar Trader, Inc. &#8482;</p> 
             <a href='#root'>
