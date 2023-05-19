@@ -8,6 +8,7 @@
   margin: 1rem 2rem;
   box-shadow: 3px 4px #e04b52;
   font-weight: bolder;
+  border-radius: 2.5rem;
 }
 
 .cart-button {
@@ -16,10 +17,11 @@
   font-size: 25px;
   border: #e04b52;
   transition-duration: 0.5s;
+  border-radius: 2.5rem;
 }
 
 .cart-button:hover {
-  background-color: #efa0a0;
+  background-color: #8294C4;
     color: white;
 }
 
@@ -29,9 +31,15 @@
   font-size: 25px;
   border: #e04b52;
   transition-duration: 0.5s;
+  border-radius: 2.5rem;
 }
 
 .trash-button:hover {
-  background-color: #efa0a0;
+  background-color: #8294C4;
     color: white;
 }
+
+/* .main > main span img {
+  width: 100%;
+  object-fit: contain;
+} */
