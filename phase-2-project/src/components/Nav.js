@@ -12,20 +12,20 @@ return (
   <img className='logo' src={process.env.PUBLIC_URL + "/images/logo.png"} alt='oops'/> Guitar Traders
         </Link>
         <ul>
-            <li>
-            <Link to="/"> Shop </Link>
+            <li className='nav-link-wrapper'>
+            <Link to="/">  Shop </Link>
             </li>
-            <li>
+            <li className='nav-link-wrapper'>
             <Link to="/guitars/cart">  Cart </Link>
             </li>
-            <li>
+            <li className='nav-link-wrapper'>
             <Link to='/guitars/new'>  Sell </Link>
             </li>
-            <li>
+            <li className='nav-link-wrapper'>
             <Link to="/guitars/contact">  Contact Us </Link>
             </li>
-            <li>
-            <Link to="/guitars/tuner">Tuner</Link>
+            <li className='nav-link-wrapper'>
+            <Link to="/guitars/tuner"> Tuner</Link>
             </li>
             <button className='dark-button' onClick={handleDarkModeClick}>{buttonContent}</button>
         </ul>
