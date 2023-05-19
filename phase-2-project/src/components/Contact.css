@@ -4,8 +4,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     max-width: 500px;
-    margin: 25px auto 0;
+    margin: 25px auto 25px;
     text-align: center;
+    font-size: 20px;
 }
 
 .contact-us h1 {
@@ -15,9 +16,10 @@
 }
 
 .contact-us h3 {
-    color: #666;
+    color: #210062;
     font-size: 18px;
     margin-bottom: 5px;
+    font-size: 25px;
 }
 
 .contact-us ul {
