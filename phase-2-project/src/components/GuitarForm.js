@@ -97,7 +97,7 @@ const GuitarForm = ({ addGuitar }) => {
         </div>
 
         <div>
-          <label>Price $</label>
+          <label>Price </label>
 
           <input
             className="inputBox"

@@ -37,7 +37,7 @@
   }
   
   .purchase-button:hover {
-    background-color: #555555;
+    background-color: #980505;
     color: white;
   }
 
@@ -51,17 +51,22 @@
   .delete-button {
     padding-left: 0px;
     padding-right: 0px;
-    border: #e04b52;
+    border: #980505;
     font-size: 25px;
     transition-duration: 0.5s;
   }
 
   .delete-button:hover {
-    background-color: #efa0a0;
+    background-color: #980505;
     color: white;
   }
 
   .empty-cart {
     padding-top: 180px;
     padding-bottom: 180px;
+  }
+
+  .hand-vector {
+    max-width: 10%;
+    max-height: 10%;
   }

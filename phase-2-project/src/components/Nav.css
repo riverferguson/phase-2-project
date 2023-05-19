@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -7,7 +7,7 @@ body {
 }
 
 .nav {
-    background-color: #c14d4d;
+    background-color: #980505;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -18,8 +18,9 @@ body {
     top:0;
 }
 
-.site-title {
-    font-size: 2rem;
+.shop-name {
+    font-size: 3rem;
+    font-family: 'Rockwell Extra Bold', 'Rockwell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav ul {
@@ -43,14 +44,27 @@ body {
     background-color: #555;
 }
 
-.na li:hover {
-    background-color: #777;
-} 
+.nav li:hover {
+    background-color: #B9E9FC;
+    font-weight: bold;
+    color: black;
+
+}
+
+.nav-link-wrapper {
+    font-size: 25px;
+    border-radius: 1.5rem;
+    top: 10%;
+    /* height: 50%; */
+
+}
 
 .logo {
-    height: 80px;
+    /* height: 80px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 20px; */
+    float: left;
+    width: 15%;
 }
 
 
@@ -71,16 +85,25 @@ body {
 } */
 
 .dark-button {
-    background-color: #c14d4d;
-    height: fit-content;
+    background-color: #bfbdc0;
+    /* height: fit-content; */
+    height: 50%;
+    font-size: 20px;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    color: white;
+    color: black;
     transition-duration: 0.4s;
+    border-radius: 2.5rem;
+
   }
   
   .dark-button:hover {
     background-color: #555555;
     color: white;
+    padding-top: 1px;
+  }
+
+  .dark-mode-span-button {
+    font-size: 30px;
   }

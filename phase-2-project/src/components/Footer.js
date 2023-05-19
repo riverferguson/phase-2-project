@@ -9,20 +9,20 @@ import './Footer.css'
 const Footer = () => {
   return (
         <>
-          <div className='icon-bar' style={{ backgroundColor: '#c14d4d', color: 'white', padding: '25px' }}>
+          <div className='icon-bar' style={{ backgroundColor: '#980505', color: 'white', padding: '25px' }}>
             <a href='https://twitter.com' target="_blank" rel='noreferrer'>
-            <TwitterIcon sx={{mr: 2}} />
+            <TwitterIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://facebook.com' target="_blank" rel='noreferrer'>
-            <FacebookIcon sx={{mr: 2}} />
+            <FacebookIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://instagram.com' target="_blank" rel='noreferrer'>
-            <InstagramIcon sx={{mr: 2}} />
+            <InstagramIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
             <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
-            <MailOutlineIcon sx={{mr: 2}} />
+            <MailOutlineIcon className='socials-icon' sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
-            Guitar Trader Inc. 
+            <p>Guitar Trader, Inc. &#8482;</p> 
             <a href='#root'>
             <button className="back-button" style={{marginLeft: '10px'}}> Back to Top</button>
             </a>

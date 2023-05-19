@@ -6,7 +6,7 @@
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52;
+  box-shadow: 3px 4px #980505;
   font-weight: bolder;
 }
 
@@ -14,12 +14,12 @@
   margin-top: 10px;
   margin-right: 10px;
   font-size: 25px;
-  border: #e04b52;
+  border: #980505;
   transition-duration: 0.5s;
 }
 
 .cart-button:hover {
-  background-color: #efa0a0;
+  background-color: #980505;
     color: white;
 }
 
@@ -27,11 +27,11 @@
   margin-top: 10px;
   margin-right: 10px;
   font-size: 25px;
-  border: #e04b52;
+  border: #980505;
   transition-duration: 0.5s;
 }
 
 .trash-button:hover {
-  background-color: #efa0a0;
+  background-color: #980505;
     color: white;
 }
