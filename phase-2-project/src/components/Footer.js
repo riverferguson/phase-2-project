@@ -22,7 +22,7 @@ const Footer = () => {
             <a href='https://gmail.com/' target="_blank" rel='noreferrer'>
             <MailOutlineIcon sx={{mr: 2, fontSize: 40, color: '#2196f3'}} />
             </a>
-            <p>Guitar Trader Inc &#8482;</p> 
+            <p>Guitar Trader, Inc. &#8482;</p> 
             <a href='#root'>
             <button className="back-button" style={{marginLeft: '10px'}}> Back to Top</button>
             </a>
