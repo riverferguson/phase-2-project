@@ -53,7 +53,7 @@ body {
 
 .nav-link-wrapper {
     font-size: 25px;
-    border-radius: 2.5rem;
+    border-radius: 1.5rem;
     top: 10%;
     /* height: 50%; */
 
@@ -65,7 +65,6 @@ body {
     margin-right: 20px; */
     float: left;
     width: 15%;
-
 }
 
 
@@ -96,10 +95,14 @@ body {
     color: black;
     transition-duration: 0.4s;
     border-radius: 2.5rem;
-    font-weight: 600;
+
   }
   
   .dark-button:hover {
     background-color: #555555;
     color: white;
+  }
+
+  .dark-mode-span-button {
+    font-size: 30px;
   }
