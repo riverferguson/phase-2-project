@@ -883,15 +883,5 @@
       "price": 3899
     }
   ],
-  "cart": [
-    {
-      "make": "Gibson",
-      "model": "SG Standard",
-      "year": 2023,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Sideways-Vibrola-Electric-Guitar-Vintage-Cherry/L54584000001000-00-220x220.jpg",
-      "price": 1499,
-      "productId": 42,
-      "id": 1
-    }
-  ]
+  "cart": []
 }
