@@ -17,11 +17,11 @@ const Nav = ({handleDarkModeClick, darkMode}) => {
           </Link>
           <ul>
               <li className='nav-link-wrapper'>
-              <Link to="/guitars/cart">🛒Cart </Link>
+              <Link to="/">  Shop </Link>
               </li>
 
               <li className='nav-link-wrapper'>
-              <Link to="/">  Shop </Link>
+              <Link to="/guitars/cart">🛒Cart </Link>
               </li>
 
               <li className='nav-link-wrapper'>
