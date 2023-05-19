@@ -41,7 +41,7 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
           </div>
         ))
       ) : (
-        <div className="empty-cart">Your Cart is Empty</div>
+        <div className="empty-cart">Your Cart is Empty......</div>
       )}
       <div className="total-price">Cart Total: ${totalPrice}</div>
       <button className="purchase-button" onClick={handlePurchase}>Complete Purchase</button>

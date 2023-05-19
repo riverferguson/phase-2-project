@@ -37,11 +37,12 @@
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: larger;
+    font-weight: bold;
     border-radius: 2.5rem;
   }
   
   .purchase-button:hover {
-    background-color: #555555;
+    background-color: #3AB0FF;
     color: white;
   }
 
@@ -49,7 +50,7 @@
     margin-top: 25px;
     margin-bottom: 25px;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 35px;
   }
   
   .delete-button {
@@ -71,4 +72,5 @@
   .empty-cart {
     padding-top: 180px;
     padding-bottom: 180px;
+      font-size: 20px;
   }
