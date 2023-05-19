@@ -17,13 +17,13 @@
   margin-top: 10px;
   margin-right: 10px;
   font-size: 25px;
-  border: #e04b52;
+  border: #e04b52 solid 1px;
   transition-duration: 0.5s;
   border-radius: 2.5rem;
 }
 
 .cart-button:hover {
-  background-color: #8294C4;
+  background-color: #FEFF86;
     color: white;
 }
 
@@ -31,13 +31,13 @@
   margin-top: 10px;
   margin-right: 10px;
   font-size: 25px;
-  border: #e04b52;
+  border: #e04b52 solid 1px;
   transition-duration: 0.5s;
   border-radius: 2.5rem;
 }
 
 .trash-button:hover {
-  background-color: #8294C4;
+  background-color: #FEFF86;
     color: white;
 }
 

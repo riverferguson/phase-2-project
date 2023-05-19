@@ -39,11 +39,12 @@
     font-size: larger;
     font-weight: bold;
     border-radius: 2.5rem;
+    border: #e04b52 solid 1px;
   }
   
   .purchase-button:hover {
-    background-color: #3AB0FF;
-    color: white;
+    background-color: #FEFF86;
+    color: black;
   }
 
   .total-price {
@@ -56,19 +57,19 @@
   .delete-button {
     padding-left: 0px;
     padding-right: 0px;
-    border: #e04b52;
+    border: #e04b52 solid 1px;
     font-size: 25px;
     transition-duration: 0.5s;
     border-radius: 2.5rem;
   }
 
   .delete-button:hover {
-    background-color: #efa0a0;
+    background-color: #FEFF86;
     color: white;
   }
 
   .empty-cart {
     padding-top: 180px;
     padding-bottom: 180px;
-      font-size: 20px;
+    font-size: 20px;
   }
