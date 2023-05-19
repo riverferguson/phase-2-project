@@ -3,7 +3,7 @@
     text-align: center;
     border: 0cqmax;
     padding: 25px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .search-input {
@@ -11,4 +11,7 @@
     padding-right: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
+    font-size: 25px;
+    border-radius: 1rem;
+    width: 50%;
 }

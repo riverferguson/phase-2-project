@@ -13,7 +13,7 @@ const Search = ({setModelSearch}) => {
     
       <div className="search">
         <span>
-          <label>Search by: Make or Model </label>
+          <label>Search by Make or Model: </label>
         </span>
         <span>
           <input className="search-input" placeholder=" search "  onChange={handleModelSearch}/>
