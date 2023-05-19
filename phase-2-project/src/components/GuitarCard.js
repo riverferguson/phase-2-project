@@ -31,7 +31,7 @@ const handleAddToCart = () => {
   return (
     <div className="main">
         <main>
-            <img className='guitar-img' src={image} alt={make}/>
+            <img src={image} alt={make}/>
             <div>Make: {make}</div>
             <div>Model: {model}</div>
             <div>Price: ${price}</div>

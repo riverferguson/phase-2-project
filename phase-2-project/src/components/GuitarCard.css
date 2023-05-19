@@ -39,7 +39,7 @@
     color: white;
 }
 
-/* .main > main span img {
+img {
   width: 100%;
-  object-fit: contain;
-} */
+  border-radius: 2.5rem;
+}
