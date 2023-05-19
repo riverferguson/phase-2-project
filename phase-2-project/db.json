@@ -883,5 +883,15 @@
       "price": 3899
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "make": "Gretsch",
+      "model": "Country Gentleman",
+      "year": 1971,
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
+      "price": 2899,
+      "productId": 4,
+      "id": 1
+    }
+  ]
 }
