@@ -60,8 +60,6 @@
     font-size: 25px;
     transition-duration: 0.5s;
     border-radius: 2.5rem;
-    position: relative;
-    width: 25%;
   }
 
   .delete-button:hover {
