@@ -10,15 +10,6 @@
       "price": 1499
     },
     {
-      "id": 3,
-      "new": true,
-      "year": 2023,
-      "make": "PRS",
-      "model": "Custom 24",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/SE-Custom-24-Floyd-Electric-Guitar-Charcoal-Burst/L88235000001000-00-220x220.jpg",
-      "price": 1999
-    },
-    {
       "id": 4,
       "new": false,
       "year": 1971,
@@ -26,24 +17,6 @@
       "model": "Country Gentleman",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
       "price": 2899
-    },
-    {
-      "id": 5,
-      "new": true,
-      "year": 2021,
-      "make": "Epiphone",
-      "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Special-Satin-E1-Electric-Guitar-Cherry/J53182000001000-00-220x220.jpg",
-      "price": 599
-    },
-    {
-      "id": 6,
-      "new": false,
-      "year": 1973,
-      "make": "Rickenbacker",
-      "model": "360",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/360-12-String-Electric-Guitar-Mapleglo/513659000204000-00-220x220.jpg",
-      "price": 3999
     },
     {
       "id": 7,
@@ -109,15 +82,6 @@
       "price": 699
     },
     {
-      "id": 14,
-      "new": false,
-      "year": 1972,
-      "make": "Gibson",
-      "model": "SG",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/SG-Standard-61-Sideways-Vibrola-Electric-Guitar-Vintage-Cherry/L54584000001000-00-220x220.jpg",
-      "price": 2899
-    },
-    {
       "id": 15,
       "new": true,
       "year": 2023,
@@ -125,15 +89,6 @@
       "model": "Jazzmaster",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/Acoustasonic-Jazzmaster-Acoustic-Electric-Guitar-Arctic-White/L81319000005000-00-220x220.jpg",
       "price": 1199
-    },
-    {
-      "id": 16,
-      "new": false,
-      "year": 1978,
-      "make": "Gibson",
-      "model": "Flying V",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/80s-Flying-V-Electric-Guitar-Ebony/M01003000001000-00-220x220.jpg",
-      "price": 2399
     },
     {
       "id": 17,
@@ -865,15 +820,6 @@
       "price": 5999
     },
     {
-      "id": 99,
-      "new": false,
-      "year": 1979,
-      "make": "Gibson",
-      "model": "Les Paul Custom",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/1957-Les-Paul-Custom-Reissue-3-Pickup-VOS-Electric-Guitar-Ebony/L21331000001000-00-220x220.jpg",
-      "price": 7599
-    },
-    {
       "id": 100,
       "new": true,
       "year": 2023,
@@ -881,35 +827,15 @@
       "model": "Custom 24",
       "image": "https://media.guitarcenter.com/is/image/MMGS7/Floyd-Custom-24-Electric-Guitar-Cobalt-Smokeburst/L95383000001000-00-220x220.jpg",
       "price": 3899
+    },
+    {
+      "year": "2023",
+      "make": "Me",
+      "model": "Uberguitar 3000",
+      "image": "https://www.jazzguitar.be/forum/attachments/guitar-amps-gizmos/89706d1647380461-random-guitar-pics-img_0635-2-jpg",
+      "price": "700",
+      "id": 101
     }
   ],
-  "cart": [
-    {
-      "make": "Gibson",
-      "model": "Les Paul",
-      "year": 1984,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/Les-Paul-Standard-60s-Electric-Guitar-Unburst/L54578000003000-00-220x220.jpg",
-      "price": 1499,
-      "productId": 2,
-      "id": 1
-    },
-    {
-      "make": "Gretsch",
-      "model": "Country Gentleman",
-      "year": 1971,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/G6122TG-Players-Edition-Country-Gentleman-Hollowbody-Electric-Guitar-Walnut-Stain/L85475000001000-00-220x220.jpg",
-      "price": 2899,
-      "productId": 4,
-      "id": 2
-    },
-    {
-      "make": "Jackson",
-      "model": "Dinky Pro-series",
-      "year": 2022,
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/Pro-Series-Dinky-DK-Modern-EverTune-6-Graphite/L81144000001000-00-220x220.jpg",
-      "price": 1499,
-      "productId": 7,
-      "id": 3
-    }
-  ]
+  "cart": []
 }
