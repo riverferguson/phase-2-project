@@ -49,7 +49,6 @@ const Cart = ({ cartItems, deleteGuitar, setCartItems }) => {
           alt="DevilHorn Hand Vector by Vecteezy: https://www.vecteezy.com/free-vector/background"
           >
           </img>
-        
         </div>
       )}
       <div className="total-price">Cart Total: ${totalPrice}</div>
