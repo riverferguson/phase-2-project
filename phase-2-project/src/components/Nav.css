@@ -44,7 +44,7 @@ body {
 }
 
 .na li:hover {
-    background-color: #777;
+    background-color: #ECC9EE;
 } 
 
 .logo {
@@ -71,13 +71,17 @@ body {
 } */
 
 .dark-button {
-    background-color: #c14d4d;
-    height: fit-content;
+    background-color: #ECC9EE;
+    /* height: fit-content; */
+    height: 50%;
+    font-size: 15px;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    color: white;
+    color: black;
     transition-duration: 0.4s;
+    border-radius: 2.5rem;
+    font-weight: 600;
   }
   
   .dark-button:hover {
