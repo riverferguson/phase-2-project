@@ -3,15 +3,16 @@
     padding: 20px;
     border: 1px solid #fa7777;
     border-radius: 7.5px;
-    max-width: 500px;
+    max-width: 600px;
     margin: 25px auto 25px;
     text-align: center;
     font-size: 20px;
+    color: black;
 }
 
 .contact-us h1 {
     color: black;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
@@ -30,4 +31,5 @@
 
 .contact-us ul li {
     margin-bottom: 5px;
+    color: black;
 }

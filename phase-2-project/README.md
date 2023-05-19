@@ -2,7 +2,6 @@
 GuitarTraders is a multi-page React application for buying and selling guitars. You can filter guitars by make and model, add them to a cart, and list your guitar(s) for sale.
 
 ## Installation
-
 * fork and clone this repository
 * navigate to the directory on your local terminal with `cd <directory-name>`
 * run `code .` to open the content in VSCode
@@ -12,6 +11,7 @@ GuitarTraders is a multi-page React application for buying and selling guitars. 
 
 ## Application Features
 1. Select between light and dark mode
+
 2. Select whether you want to search by Make or Model and type your search in to filter results from the guitar selection.
 3. Remove items from the guitar selection that you do not want by clicking on the trash icon.
 4. Add Items from the guitar selection to the checkout cart by clicking on the cart icon.
